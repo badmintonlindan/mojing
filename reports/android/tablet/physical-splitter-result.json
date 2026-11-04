@@ -1,0 +1,62 @@
+{
+  "serial": "emulator-5556",
+  "startedAt": "2026-11-04T05:32:38.612Z",
+  "completed": true,
+  "input": "physical Android ADB touchscreen swipe, coordinates from DOM and native WebView bounds",
+  "measurements": [
+    {
+      "requested": 40,
+      "from": [
+        "1666",
+        "835"
+      ],
+      "to": [
+        "1298",
+        "835"
+      ],
+      "ratio": 40.15895132782795,
+      "reader": 408.0078125,
+      "knowledge": 591.9921875,
+      "canvas": {
+        "width": 783,
+        "height": 1196,
+        "dark": 401913,
+        "opaque": 936468,
+        "pixels": 936468
+      }
+    },
+    {
+      "requested": 57,
+      "from": [
+        "1324",
+        "835"
+      ],
+      "to": [
+        "1655",
+        "835"
+      ],
+      "ratio": 57.11252190767585,
+      "reader": 580.2578125,
+      "knowledge": 419.7421875,
+      "canvas": {
+        "width": 1196,
+        "height": 1828,
+        "dark": 939807,
+        "opaque": 2186288,
+        "pixels": 2186288
+      }
+    }
+  ],
+  "initialRatio": 57,
+  "nativeBounds": [
+    0,
+    48,
+    2560,
+    1488
+  ],
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "finishedAt": "2026-11-04T05:32:46.639Z"
+}

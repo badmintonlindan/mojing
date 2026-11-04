@@ -1,0 +1,19 @@
+{
+  "apk": "android/app/build/outputs/apk/debug/app-debug.apk",
+  "sha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b",
+  "bytes": 7574793,
+  "js": "index-CunP_kr-.js",
+  "css": "index-B8GE47T1.css",
+  "build": ":app:assembleDebug",
+  "buildResult": "BUILD SUCCESSFUL in 2m 21s",
+  "jdk": "Temurin 21.0.13+9",
+  "gradle": "8.14.3",
+  "compileSdk": 36,
+  "targetSdk": 36,
+  "minSdk": 24,
+  "package": "cn.mojing.study",
+  "version": "0.1.0",
+  "signing": "Android debug certificate, APK Signature Scheme v2 verified",
+  "signatureVerification": "Verifies\r\nVerified using v1 scheme (JAR signing): false\r\nVerified using v2 scheme (APK Signature Scheme v2): true\r\nVerified using v3 scheme (APK Signature Scheme v3): false\r\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\r\nVerified using v4 scheme (APK Signature Scheme v4): false\r\nVerified for SourceStamp: false\r\nNumber of signers: 1\r\nSigner #1 certificate DN: C=US, O=Android, CN=Android Debug\r\nSigner #1 certificate SHA-256 digest: 5e34483d52e32dbdc8296da50cf13e822ad410dbb393c1a04e4129c0d1ce073a\r\nSigner #1 certificate SHA-1 digest: 72979015342b564d28f623d121515d38da89e2ab\r\nSigner #1 certificate MD5 digest: 2eae2bc0e1486861b2c47e1a4fe2715d\r\nSigner #1 key algorithm: RSA\r\nSigner #1 key size (bits): 2048\r\nSigner #1 public key SHA-256 digest: 13d2e2f1ba900ca87deef6a29dda44e16afd79e2f95e181eb64221dfb67f4a03\r\nSigner #1 public key SHA-1 digest: e93f46583d3d91de7d2bb3a039205decd1a581d1\r\nSigner #1 public key MD5 digest: 7219138997e57f4eac59b637a28114e1\r\n",
+  "badging": "package: name='cn.mojing.study' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'\r\nsdkVersion:'24'\r\ntargetSdkVersion:'36'\r\nuses-permission: name='android.permission.INTERNET'\r\nuses-permission: name='cn.mojing.study.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'\r\napplication-label:'墨径'\r\n"
+}

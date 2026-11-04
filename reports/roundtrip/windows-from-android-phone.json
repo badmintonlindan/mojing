@@ -1,0 +1,68 @@
+{
+  "executedAt": "2026-11-04T05:05:25.634Z",
+  "completed": true,
+  "testTitle": "Android phone 系统保存器导出→打包Windows真实回导与重启",
+  "input": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\android\\phone\\Android-phone-export.mjstudy",
+  "inputSha256": "61c7a312c46b210648a01c24cfc06147a66cfa0330fe870c77ab550154b56d3e",
+  "dataDirectory": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Android-phone-回导Windows-中文-1793768712062",
+  "rendererEntry": "./assets/index-CunP_kr-.js",
+  "native": {
+    "packaged": true,
+    "executable": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+    "version": "0.1.0",
+    "userData": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Android-phone-回导Windows-中文-1793768712062"
+  },
+  "sources": [
+    {
+      "title": "01 观察与证据",
+      "page": 1,
+      "rects": [
+        [
+          47.965898225857856,
+          619.3000106236057,
+          242.1708458382025,
+          634.9039626049082
+        ]
+      ],
+      "pixels": {
+        "width": 857,
+        "height": 1109,
+        "darkPixels": 33066
+      }
+    },
+    {
+      "title": "02 扫描图像摘录",
+      "page": 4,
+      "rects": [
+        [
+          177.1038818167531,
+          288.82476819110474,
+          1593.934936350778,
+          1130.068206820682
+        ]
+      ],
+      "pixels": {
+        "width": 1028,
+        "height": 1571,
+        "darkPixels": 678541
+      }
+    }
+  ],
+  "metrics": {
+    "documents": 2,
+    "cards": 21,
+    "nodes": 20,
+    "annotations": 3,
+    "reviews": 1,
+    "reviewLogs": 3,
+    "assets": 4
+  },
+  "checks": [
+    "真实打包EXE以Windows原生文件适配器UI导入Android包",
+    "所有资产字节/SHA-256逐项一致，卡片/文档/来源/脑图/批注/复习全部字段与关系经ID映射后保留",
+    "文字和图片摘录实际返回对应文档/页码/区域，原文像素与卡片图片均非空",
+    "关闭真实进程并重开后全部内容、关系、批注和新增复习仍由原生文件恢复"
+  ],
+  "errors": [],
+  "scope": "Android production system-picker export is imported by packaged Windows production UI/native fs; no state injection and no OS clipboard test"
+}

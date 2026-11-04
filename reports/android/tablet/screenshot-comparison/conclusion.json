@@ -1,0 +1,57 @@
+{
+  "finding": "OS display and raw PDF canvas are correct; CDP screenshot can omit Canvas2D in this tested Android WebView",
+  "rendererBlockerConfirmed": false,
+  "correctsPreviousCdpOnlyInterpretation": true,
+  "baseline": {
+    "freshProcess": true,
+    "beforePid": "6023",
+    "freshPid": "6993",
+    "initScriptsInstalled": false,
+    "nativeContextFunction": "function getContext() { [native code] }",
+    "contextAttributes": {
+      "alpha": true,
+      "colorSpace": "srgb",
+      "desynchronized": false,
+      "willReadFrequently": "undefined"
+    },
+    "scripts": [
+      "https://localhost/assets/index-3hr5Ry_m.js"
+    ],
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+  },
+  "evidence": [
+    {
+      "name": "fresh-rotation90-zoom120",
+      "osBeforeSha256": "a162f9f264c1e210a83f8377b666e6e2a78a55fd9a2ac52f72a631f29080fb91",
+      "osAfterSha256": "a162f9f264c1e210a83f8377b666e6e2a78a55fd9a2ac52f72a631f29080fb91",
+      "osIdenticalBeforeAfter": true,
+      "canvasDark": 935229,
+      "canvasNonWhite": 2176032,
+      "canvasOpaque": 2177856,
+      "canvasTransparent": 0
+    },
+    {
+      "name": "portrait-rotation90-zoom120",
+      "osBeforeSha256": "96d9ff31263c464aacfad7767a83bf595ecccf6df7ed0110b97afbcefd59d1a6",
+      "osAfterSha256": "96d9ff31263c464aacfad7767a83bf595ecccf6df7ed0110b97afbcefd59d1a6",
+      "osIdenticalBeforeAfter": true,
+      "canvasDark": 491414,
+      "canvasNonWhite": 1143530,
+      "canvasOpaque": 1143530,
+      "canvasTransparent": 0
+    },
+    {
+      "name": "landscape-rotation90-zoom120",
+      "osBeforeSha256": "a162f9f264c1e210a83f8377b666e6e2a78a55fd9a2ac52f72a631f29080fb91",
+      "osAfterSha256": "8ab9ec0321892d2b6499d25bae09885c48b3de264552cec99148efb7afd717e9",
+      "osIdenticalBeforeAfter": false,
+      "canvasDark": 935229,
+      "canvasNonWhite": 2176032,
+      "canvasOpaque": 2177856,
+      "canvasTransparent": 0
+    }
+  ],
+  "officialAcceptanceCapture": "Android OS/device screenshot plus canvas pixel verification",
+  "errors": [],
+  "finishedAt": "2026-11-04T04:29:57.924Z"
+}

@@ -1,0 +1,14 @@
+{
+  "executedAt": "2026-11-04T03:11:17.275Z",
+  "info": {
+    "packaged": true,
+    "exe": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+    "version": "0.1.0",
+    "userData": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Windows-smoke-中文-1793761871248",
+    "electron": "45.2.2",
+    "chrome": "156.0.8078.80"
+  },
+  "url": "file:///C:/Users/86157/Documents/ChatGPT/android%20mn/release/%E5%A2%A8%E5%BE%84-Windows-x64/resources/app/dist/index.html",
+  "nativeBridge": "windows",
+  "errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "errors": [
+    {
+      "phase": "import-two-pdfs",
+      "message": "Ya",
+      "name": "RenderingCancelledException",
+      "stack": ""
+    },
+    {
+      "phase": "switch-text",
+      "message": "Ya",
+      "name": "RenderingCancelledException",
+      "stack": ""
+    }
+  ],
+  "finalText": "Chapter 1: ObservationLearning begins with observation.Select this sentence to create a source-linked knowledge card.A useful note connects an idea with the exact original evidence.Highlights and handwriting must follow the PDF coordinates.Move from reading to excerpting, mapping, and active recall.This document has a real searchable and selectable text layer.Practice question: How does retrieval strengthen understanding?Answer: Retrieve, compare with the source, and correct the gap.Unique search token: chapter1evidence.Use the scan fixture to test image excerpts without OCR.Chinese file paths and study-set names are part of this test.All fixture content was generated for this application.EXCERPT REGIONThis is page 1. Keep its source when exporting a study set.1 / 3"
+}

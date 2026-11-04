@@ -1,0 +1,31 @@
+{
+  "executedAt": "2026-11-04T03:22:53.452Z",
+  "completed": true,
+  "nativeInfo": {
+    "exe": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+    "packaged": true,
+    "userData": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Windows-预算及取消修复验证-1793762554294",
+    "version": "0.1.0",
+    "electron": "45.2.2"
+  },
+  "rendererEntry": "./assets/index-B8SQtjJ9.js",
+  "renderBudgetMiB": 64,
+  "timings": {
+    "importTwoAndRenderScan1Ms": 5839,
+    "scan4Ms": 3560,
+    "reopenScan4Ms": 4728
+  },
+  "pixels": {
+    "width": 872,
+    "height": 571,
+    "darkPixels": 218785
+  },
+  "passed": [
+    "UI import two real PDFs to native storage",
+    "scan page4 ready and nonwhite",
+    "text document switch and resize ready",
+    "scan4 reopen ready",
+    "no pageerror across cancellation/resize"
+  ],
+  "errors": []
+}

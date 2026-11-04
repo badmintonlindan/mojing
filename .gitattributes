@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.jar binary
+# These files carry recorded byte-level SHA-256 evidence; never rewrite newlines.
+android/**/*.gradle -text
+public/licenses/** -text
+reports/** -text

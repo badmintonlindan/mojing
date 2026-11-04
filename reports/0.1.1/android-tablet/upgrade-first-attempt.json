@@ -1,0 +1,23 @@
+{
+  "completed": false,
+  "version": "0.1.1",
+  "startedAt": "2026-11-04T15:35:46.058Z",
+  "serial": "emulator-5556",
+  "checks": [
+    "覆盖安装成功，原生双槽资料、来源、批注、脑图与复习数据逐字段保留"
+  ],
+  "errors": [],
+  "previousVersion": "0.1.0",
+  "before": {
+    "revision": 65,
+    "cards": 82,
+    "nodes": 80,
+    "annotations": 10,
+    "reviewLogs": 10
+  },
+  "apkSha256": "a36f268b7e540cc7e1ed82af3f03bbe285f623c47fc4f2180a455270f93d549c",
+  "installedSha256": "a36f268b7e540cc7e1ed82af3f03bbe285f623c47fc4f2180a455270f93d549c",
+  "entry": "./assets/index-BYoFGUNk.js",
+  "failure": "locator.click: Error: strict mode violation: getByLabel('打开侧栏', { exact: true }) resolved to 2 elements:\n    1) <button aria-label=\"打开侧栏\" class=\"menu-toggle\" aria-expanded=\"false\" aria-controls=\"study-sidebar\">…</button> aka getByLabel('打开侧栏').first()\n    2) <button title=\"打开资料侧栏\" aria-label=\"打开侧栏\" aria-expanded=\"false\" class=\"sidebar-toggle\" aria-controls=\"study-sidebar\">…</button> aka getByRole('button', { name: '打开侧栏' })\n\nCall log:\n\u001b[2m  - waiting for getByLabel('打开侧栏', { exact: true })\u001b[22m\n\n    at C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\scripts\\test-android-zoom.mjs:68:50",
+  "finishedAt": "2026-11-04T15:36:17.229Z"
+}

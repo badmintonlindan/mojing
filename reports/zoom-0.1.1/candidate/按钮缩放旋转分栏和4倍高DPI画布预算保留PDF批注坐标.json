@@ -1,0 +1,210 @@
+{
+  "test": "按钮缩放旋转分栏和4倍高DPI画布预算保留PDF批注坐标",
+  "label": "candidate",
+  "startedAt": "2026-11-04T15:38:27.211Z",
+  "observations": {
+    "buttons": {
+      "initial": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      },
+      "larger": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 288.6801642139835,
+          "y": 436.5571349647142
+        },
+        "bounds": {
+          "x": -71,
+          "y": -201,
+          "width": 1236.953125,
+          "height": 1600.765625
+        },
+        "scroll": {
+          "x": 338,
+          "y": 455
+        },
+        "zoom": 2.49
+      },
+      "smaller": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      }
+    },
+    "maximum": {
+      "frames": 35,
+      "order": "second-first",
+      "cancel": false,
+      "factor": 3,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.450063870791,
+          "y": 438.4949433472486
+        },
+        "bounds": {
+          "x": -418.22088623046875,
+          "y": -631.1431884765625,
+          "width": 1988.419921875,
+          "height": 2573.2421875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 4
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.3795473833098,
+          "y": 438.542233664665
+        },
+        "bounds": {
+          "x": -418,
+          "y": -631,
+          "width": 1988.4375,
+          "height": 2573.265625
+        },
+        "scroll": {
+          "x": 685,
+          "y": 885
+        },
+        "zoom": 4
+      },
+      "during": {
+        "trusted": 72,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 70
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 74,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 70,
+          "pointerup": 2
+        },
+        "canvasDimensions": 2,
+        "loadingTransitions": 1,
+        "readyTransitions": 1
+      },
+      "previewDriftCssPixels": 0.00005229502502660808,
+      "finalDriftCssPixels": 0.2758955378601124,
+      "bitmap": {
+        "width": 3600,
+        "height": 4659,
+        "dark": 533682,
+        "opaque": 16772400,
+        "total": 16772400
+      }
+    },
+    "transformed": {
+      "bitmap": {
+        "width": 4659,
+        "height": 3600,
+        "dark": 527227,
+        "opaque": 16772400,
+        "total": 16772400
+      },
+      "rotation": 90,
+      "zoom": 4,
+      "viewport": {
+        "width": 1600,
+        "height": 1050
+      },
+      "split": "67"
+    }
+  },
+  "errors": [],
+  "runtime": {
+    "scripts": [
+      "http://127.0.0.1:5173/assets/index-BYoFGUNk.js"
+    ],
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "dpr": 2
+    },
+    "maxTouchPoints": 1
+  },
+  "fixtureSha256": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+  "finishedAt": "2026-11-04T15:41:27.581Z",
+  "status": "failed",
+  "failures": [
+    "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3\u001b[39m\nReceived:   \u001b[31m5.9712979794478\u001b[39m",
+    "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+  ],
+  "scope": "Installed Chrome with trusted CDP touch injection at a tablet viewport; not Huawei physical-device verification."
+}

@@ -1,0 +1,165 @@
+{
+  "serial": "emulator-5556",
+  "beforePid": "6023",
+  "freshPid": "6993",
+  "freshProcess": true,
+  "initScriptsInstalled": false,
+  "startedAt": "2026-11-04T04:28:28.791Z",
+  "samples": [
+    {
+      "name": "fresh-rotation90-zoom120",
+      "page": "4",
+      "document": "archival-scan",
+      "rotation": "90",
+      "zoom": "120%",
+      "width": 1194,
+      "height": 1824,
+      "css": {
+        "x": 267,
+        "y": 254,
+        "width": 596.53125,
+        "height": 911.78125,
+        "top": 254,
+        "right": 863.53125,
+        "bottom": 1165.78125,
+        "left": 267
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2
+      },
+      "scroll": {
+        "left": 0,
+        "top": 0,
+        "scrollWidth": 637,
+        "scrollHeight": 952
+      },
+      "ready": {
+        "renderState": "ready",
+        "renderedPage": "4"
+      },
+      "contextAttributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "desynchronized": false,
+        "willReadFrequently": "undefined"
+      },
+      "contextLost": false,
+      "dark": 935229,
+      "nonWhite": 2176032,
+      "opaque": 2177856,
+      "transparent": 0,
+      "pngBytes": 3659096
+    },
+    {
+      "name": "portrait-rotation90-zoom120",
+      "page": "4",
+      "document": "archival-scan",
+      "rotation": "90",
+      "zoom": "120%",
+      "width": 865,
+      "height": 1322,
+      "css": {
+        "x": 33,
+        "y": 239,
+        "width": 432.375,
+        "height": 660.8671875,
+        "top": 239,
+        "right": 465.375,
+        "bottom": 899.8671875,
+        "left": 33
+      },
+      "viewport": {
+        "width": 800,
+        "height": 1200,
+        "dpr": 2
+      },
+      "scroll": {
+        "left": 0,
+        "top": 0,
+        "scrollWidth": 472,
+        "scrollHeight": 922
+      },
+      "ready": {
+        "renderState": "ready",
+        "renderedPage": "4"
+      },
+      "contextAttributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "desynchronized": false,
+        "willReadFrequently": "undefined"
+      },
+      "contextLost": false,
+      "dark": 491414,
+      "nonWhite": 1143530,
+      "opaque": 1143530,
+      "transparent": 0,
+      "pngBytes": 2064445
+    },
+    {
+      "name": "landscape-rotation90-zoom120",
+      "page": "4",
+      "document": "archival-scan",
+      "rotation": "90",
+      "zoom": "120%",
+      "width": 1194,
+      "height": 1824,
+      "css": {
+        "x": 267,
+        "y": 254,
+        "width": 596.53125,
+        "height": 911.78125,
+        "top": 254,
+        "right": 863.53125,
+        "bottom": 1165.78125,
+        "left": 267
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2
+      },
+      "scroll": {
+        "left": 0,
+        "top": 0,
+        "scrollWidth": 637,
+        "scrollHeight": 952
+      },
+      "ready": {
+        "renderState": "ready",
+        "renderedPage": "4"
+      },
+      "contextAttributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "desynchronized": false,
+        "willReadFrequently": "undefined"
+      },
+      "contextLost": false,
+      "dark": 935229,
+      "nonWhite": 2176032,
+      "opaque": 2177856,
+      "transparent": 0,
+      "pngBytes": 3659096
+    }
+  ],
+  "console": [
+    {
+      "type": "warning",
+      "text": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+    },
+    {
+      "type": "warning",
+      "text": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+    },
+    {
+      "type": "warning",
+      "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "finishedAt": "2026-11-04T04:29:57.924Z"
+}

@@ -1,0 +1,613 @@
+{
+  "schemaVersion": 1,
+  "revision": 24,
+  "sets": [
+    {
+      "id": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "name": "验收·中文学习集（导入）（导入 3）",
+      "documentIds": [
+        "161b892a-a5a5-4fba-9dae-ee3fd38c3a24",
+        "1405ad62-b3ac-481b-82e0-49a9f94df037"
+      ],
+      "createdAt": "2026-11-04T03:22:59.934Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "161b892a-a5a5-4fba-9dae-ee3fd38c3a24",
+      "name": "含文字层的学习资料",
+      "assetId": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+      "pageCount": 3,
+      "createdAt": "2026-11-04T03:23:00.622Z",
+      "progress": {
+        "page": 1,
+        "zoom": 1.2,
+        "rotation": 90
+      }
+    },
+    {
+      "id": "1405ad62-b3ac-481b-82e0-49a9f94df037",
+      "name": "archival-scan",
+      "assetId": "c5eb1115c7fec4927f798051d157e6c58146b883b817aa22f4b1a875a0c39c66",
+      "pageCount": 16,
+      "createdAt": "2026-11-04T03:23:01.672Z",
+      "progress": {
+        "page": 4,
+        "zoom": 1,
+        "rotation": 0
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "37c57dcf-6304-42c4-bac2-d5c725d25d52",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "01 观察与证据",
+      "body": "Learning begins with observation.",
+      "source": {
+        "documentId": "161b892a-a5a5-4fba-9dae-ee3fd38c3a24",
+        "page": 1,
+        "rects": [
+          [
+            47.965898225857856,
+            619.3000106236057,
+            242.1708458382025,
+            634.9039626049082
+          ]
+        ],
+        "quote": "Learning begins with observation."
+      },
+      "color": "#e8bd61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:13.558Z",
+      "updatedAt": "2026-11-04T03:23:14.197Z"
+    },
+    {
+      "id": "eb43fe08-0166-40b7-ac79-a5bb2cb51f78",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "02 扫描图像摘录",
+      "body": "",
+      "source": {
+        "documentId": "1405ad62-b3ac-481b-82e0-49a9f94df037",
+        "page": 4,
+        "rects": [
+          [
+            177.1038818167531,
+            288.82476819110474,
+            1593.934936350778,
+            1130.068206820682
+          ]
+        ]
+      },
+      "imageAssetId": "fdad44fbb902a421be3af3816761e932edf76aea1943e13a8da6406959f09966",
+      "color": "#e8bd61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:34.228Z",
+      "updatedAt": "2026-11-04T03:23:34.414Z"
+    },
+    {
+      "id": "11ad8475-4811-4b2b-b59c-beb28a96d7bc",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "03 学习概念",
+      "body": "第 3 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。\nWindows 实际关闭保存验收。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:47.030Z",
+      "updatedAt": "2026-11-04T03:29:24.914Z"
+    },
+    {
+      "id": "cadba585-03d1-4c2c-8257-fdc414e62ec8",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "04 学习概念",
+      "body": "第 4 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:47.549Z",
+      "updatedAt": "2026-11-04T03:23:47.717Z"
+    },
+    {
+      "id": "16c87be4-6d62-4875-890f-0fff8efaddee",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "05 学习概念",
+      "body": "第 5 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:47.797Z",
+      "updatedAt": "2026-11-04T03:23:47.956Z"
+    },
+    {
+      "id": "c9ae8974-2e0e-4a81-a944-58e347dd7ba8",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "06 学习概念",
+      "body": "第 6 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:48.051Z",
+      "updatedAt": "2026-11-04T03:23:48.214Z"
+    },
+    {
+      "id": "0422d549-4e3f-4048-8a8e-88e25656df60",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "07 学习概念",
+      "body": "第 7 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:48.289Z",
+      "updatedAt": "2026-11-04T03:23:48.463Z"
+    },
+    {
+      "id": "d92c4683-ea9e-412d-b673-b40440311385",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "08 学习概念",
+      "body": "第 8 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:48.567Z",
+      "updatedAt": "2026-11-04T03:23:48.767Z"
+    },
+    {
+      "id": "ee3fefc2-d03b-49db-b6ed-94a078971f1e",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "09 学习概念",
+      "body": "第 9 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:48.869Z",
+      "updatedAt": "2026-11-04T03:23:49.060Z"
+    },
+    {
+      "id": "9d0469b7-d7e2-438f-a385-ffe2333888b2",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "10 学习概念",
+      "body": "第 10 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:49.161Z",
+      "updatedAt": "2026-11-04T03:23:49.355Z"
+    },
+    {
+      "id": "df4130bb-b5d9-4dcc-a5c4-0d65c1c25521",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "11 学习概念",
+      "body": "第 11 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:49.474Z",
+      "updatedAt": "2026-11-04T03:23:49.676Z"
+    },
+    {
+      "id": "95d642c6-1357-432e-a577-5f70f6ef0dce",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "12 学习概念",
+      "body": "第 12 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:49.774Z",
+      "updatedAt": "2026-11-04T03:23:49.962Z"
+    },
+    {
+      "id": "ebbb6ffb-39d5-40b0-8f6f-c7a4fb5c92ce",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "13 学习概念",
+      "body": "第 13 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:50.060Z",
+      "updatedAt": "2026-11-04T03:23:50.262Z"
+    },
+    {
+      "id": "69969093-55e1-4d31-b279-74b24071d826",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "14 学习概念",
+      "body": "第 14 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:50.364Z",
+      "updatedAt": "2026-11-04T03:23:50.540Z"
+    },
+    {
+      "id": "d54e2338-031d-433b-9814-20e82ef88dfb",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "15 学习概念",
+      "body": "第 15 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:50.633Z",
+      "updatedAt": "2026-11-04T03:23:50.837Z"
+    },
+    {
+      "id": "79403a27-4956-41dd-8c38-b27fb61aa048",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "16 学习概念",
+      "body": "第 16 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:50.924Z",
+      "updatedAt": "2026-11-04T03:23:51.100Z"
+    },
+    {
+      "id": "088a0447-74c5-4fc5-b44f-5334ac597ee4",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "17 学习概念",
+      "body": "第 17 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:51.203Z",
+      "updatedAt": "2026-11-04T03:23:51.405Z"
+    },
+    {
+      "id": "c343b1df-4d99-47f7-8c7e-6bd70af0b953",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "18 学习概念",
+      "body": "第 18 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:51.523Z",
+      "updatedAt": "2026-11-04T03:23:51.719Z"
+    },
+    {
+      "id": "51173d24-ba36-4c5d-aa47-40796d748f18",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "19 学习概念",
+      "body": "第 19 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:51.826Z",
+      "updatedAt": "2026-11-04T03:23:52.025Z"
+    },
+    {
+      "id": "2756db40-a3bc-4881-8bff-802bd096b957",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "title": "20 学习概念",
+      "body": "第 20 张知识卡片：把观察、联结与主动回忆结合，回到原文核对证据。",
+      "color": "#e7bf61",
+      "tags": [],
+      "createdAt": "2026-11-04T03:23:52.118Z",
+      "updatedAt": "2026-11-04T03:23:52.335Z"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "9a7e01e4-0c33-4fe8-b263-0daeb1ddf829",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "documentId": "161b892a-a5a5-4fba-9dae-ee3fd38c3a24",
+      "page": 1,
+      "kind": "highlight",
+      "color": "#f4ca58",
+      "rects": [
+        [
+          47.965898225857856,
+          619.3000106236057,
+          242.1708458382025,
+          634.9039626049082
+        ]
+      ],
+      "createdAt": "2026-11-04T03:23:12.791Z"
+    },
+    {
+      "id": "ce3ec00c-c64d-41ac-aaa8-7b53fe9b6586",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "documentId": "1405ad62-b3ac-481b-82e0-49a9f94df037",
+      "page": 4,
+      "kind": "ink",
+      "color": "#235db0",
+      "points": [
+        {
+          "x": 309.93179317931794,
+          "y": 864.4123840955523,
+          "pressure": 0.5
+        },
+        {
+          "x": 351.7480475502907,
+          "y": 852.1135334403975,
+          "pressure": 0.5
+        },
+        {
+          "x": 393.5641668017248,
+          "y": 839.8146827852427,
+          "pressure": 0.5
+        },
+        {
+          "x": 435.3804211726976,
+          "y": 827.5156970105492,
+          "pressure": 0.5
+        },
+        {
+          "x": 477.1965404241317,
+          "y": 815.2168463553944,
+          "pressure": 0.5
+        },
+        {
+          "x": 519.0127947951046,
+          "y": 802.9179957002395,
+          "pressure": 0.5
+        },
+        {
+          "x": 560.8289140465386,
+          "y": 790.6191450450848,
+          "pressure": 0.5
+        },
+        {
+          "x": 602.6451684175114,
+          "y": 778.3201592703912,
+          "pressure": 0.5
+        },
+        {
+          "x": 644.4612876689455,
+          "y": 766.0213086152364,
+          "pressure": 0.5
+        },
+        {
+          "x": 686.2775420399182,
+          "y": 753.7224579600817,
+          "pressure": 0.5
+        },
+        {
+          "x": 728.0937964108911,
+          "y": 741.4236073049268,
+          "pressure": 0.5
+        },
+        {
+          "x": 769.9099156623251,
+          "y": 729.124756649772,
+          "pressure": 0.5
+        },
+        {
+          "x": 811.726170033298,
+          "y": 716.8257708750784,
+          "pressure": 0.5
+        },
+        {
+          "x": 853.542289284732,
+          "y": 704.5269202199237,
+          "pressure": 0.5
+        },
+        {
+          "x": 895.3585436557048,
+          "y": 692.2280695647689,
+          "pressure": 0.5
+        },
+        {
+          "x": 937.1746629071389,
+          "y": 679.9292189096141,
+          "pressure": 0.5
+        },
+        {
+          "x": 978.9909172781117,
+          "y": 667.6302331349206,
+          "pressure": 0.5
+        },
+        {
+          "x": 1020.8070365295457,
+          "y": 655.3313824797657,
+          "pressure": 0.5
+        },
+        {
+          "x": 1062.6232909005187,
+          "y": 643.0325318246109,
+          "pressure": 0.5
+        }
+      ],
+      "width": 9.740713499921421,
+      "createdAt": "2026-11-04T03:23:26.693Z"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "66dc4f1e-14c3-4c66-be41-b43e00c104ce",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "37c57dcf-6304-42c4-bac2-d5c725d25d52",
+      "parentId": null,
+      "order": 0,
+      "collapsed": false
+    },
+    {
+      "id": "53040975-b868-4704-8a91-897c2bbe903b",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "eb43fe08-0166-40b7-ac79-a5bb2cb51f78",
+      "parentId": "66dc4f1e-14c3-4c66-be41-b43e00c104ce",
+      "order": 0,
+      "collapsed": false
+    },
+    {
+      "id": "e1ead980-0a57-4063-8cf7-791c76a9e297",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "11ad8475-4811-4b2b-b59c-beb28a96d7bc",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 0,
+      "collapsed": false
+    },
+    {
+      "id": "f099c2d2-b759-4e89-b8b2-7da3eb8102fd",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "cadba585-03d1-4c2c-8257-fdc414e62ec8",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 1,
+      "collapsed": false
+    },
+    {
+      "id": "8828bec5-0f63-415b-a61b-23082f896116",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "16c87be4-6d62-4875-890f-0fff8efaddee",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 2,
+      "collapsed": false
+    },
+    {
+      "id": "79b0aa88-fbcb-4d17-9535-4b9b21619987",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "c9ae8974-2e0e-4a81-a944-58e347dd7ba8",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 3,
+      "collapsed": false
+    },
+    {
+      "id": "da5f7f91-5edb-438f-965e-91a0aa9b356c",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "0422d549-4e3f-4048-8a8e-88e25656df60",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 4,
+      "collapsed": false
+    },
+    {
+      "id": "78acc94a-ea08-45b9-aaf3-bde9dc480d05",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "d92c4683-ea9e-412d-b673-b40440311385",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 5,
+      "collapsed": false
+    },
+    {
+      "id": "2af25e68-6ed7-4354-92a4-3ceb0fc3bffc",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "ee3fefc2-d03b-49db-b6ed-94a078971f1e",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 6,
+      "collapsed": false
+    },
+    {
+      "id": "34550bb4-7333-45da-9652-8bedf29ad303",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "9d0469b7-d7e2-438f-a385-ffe2333888b2",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 7,
+      "collapsed": false
+    },
+    {
+      "id": "e904f411-e9b7-4f44-b3f7-f3ade49f93e9",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "df4130bb-b5d9-4dcc-a5c4-0d65c1c25521",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 8,
+      "collapsed": false
+    },
+    {
+      "id": "33e28f14-12e3-4b68-881d-550478fb1471",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "95d642c6-1357-432e-a577-5f70f6ef0dce",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 9,
+      "collapsed": false
+    },
+    {
+      "id": "220a8ba6-ca45-4da4-8c55-8853f2c7e5d6",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "ebbb6ffb-39d5-40b0-8f6f-c7a4fb5c92ce",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 10,
+      "collapsed": false
+    },
+    {
+      "id": "fab41f53-d35a-47c3-b2d5-573d665461ba",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "69969093-55e1-4d31-b279-74b24071d826",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 11,
+      "collapsed": false
+    },
+    {
+      "id": "cf93704d-66d6-461c-9c89-98666d0e47fc",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "d54e2338-031d-433b-9814-20e82ef88dfb",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 12,
+      "collapsed": false
+    },
+    {
+      "id": "334d1e2b-e687-460e-bede-e22464bd9cf5",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "79403a27-4956-41dd-8c38-b27fb61aa048",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 13,
+      "collapsed": false
+    },
+    {
+      "id": "4a01ed69-3611-4e24-8f71-6f4230629b8d",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "088a0447-74c5-4fc5-b44f-5334ac597ee4",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 14,
+      "collapsed": false
+    },
+    {
+      "id": "0a2bc957-5822-48fb-ad61-1abc668c1c41",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "c343b1df-4d99-47f7-8c7e-6bd70af0b953",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 15,
+      "collapsed": false
+    },
+    {
+      "id": "b5632532-2852-4fec-a192-4374e281c7a9",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "51173d24-ba36-4c5d-aa47-40796d748f18",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 16,
+      "collapsed": false
+    },
+    {
+      "id": "b0514c25-a86d-4cdc-a603-f0d202330207",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "cardId": "2756db40-a3bc-4881-8bff-802bd096b957",
+      "parentId": "53040975-b868-4704-8a91-897c2bbe903b",
+      "order": 17,
+      "collapsed": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "d9a9a226-7cba-4e0e-8102-2b48256fd408",
+      "cardId": "37c57dcf-6304-42c4-bac2-d5c725d25d52",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "question": "学习从什么开始？请回忆并核对来源。",
+      "dueAt": "2026-11-06T15:29:23.933Z",
+      "interval": 2.5,
+      "repetitions": 2
+    }
+  ],
+  "reviewLogs": [
+    {
+      "id": "85229558-c9fa-4bbb-9508-321f871e4ef7",
+      "reviewId": "d9a9a226-7cba-4e0e-8102-2b48256fd408",
+      "cardId": "37c57dcf-6304-42c4-bac2-d5c725d25d52",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "rating": "good",
+      "reviewedAt": "2026-11-04T03:23:58.114Z",
+      "nextDueAt": "2026-11-05T03:23:58.114Z"
+    },
+    {
+      "id": "69795b70-83f8-49bc-92d6-8e045b8f7d5c",
+      "reviewId": "d9a9a226-7cba-4e0e-8102-2b48256fd408",
+      "cardId": "37c57dcf-6304-42c4-bac2-d5c725d25d52",
+      "setId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+      "rating": "good",
+      "reviewedAt": "2026-11-04T03:29:23.933Z",
+      "nextDueAt": "2026-11-06T15:29:23.933Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+      "sha256": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+      "mime": "application/pdf",
+      "size": 31244,
+      "path": "assets/0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215.pdf"
+    },
+    {
+      "id": "c5eb1115c7fec4927f798051d157e6c58146b883b817aa22f4b1a875a0c39c66",
+      "sha256": "c5eb1115c7fec4927f798051d157e6c58146b883b817aa22f4b1a875a0c39c66",
+      "mime": "application/pdf",
+      "size": 13717150,
+      "path": "assets/c5eb1115c7fec4927f798051d157e6c58146b883b817aa22f4b1a875a0c39c66.pdf"
+    },
+    {
+      "id": "fdad44fbb902a421be3af3816761e932edf76aea1943e13a8da6406959f09966",
+      "sha256": "fdad44fbb902a421be3af3816761e932edf76aea1943e13a8da6406959f09966",
+      "mime": "image/png",
+      "size": 142063,
+      "path": "assets/fdad44fbb902a421be3af3816761e932edf76aea1943e13a8da6406959f09966.png"
+    }
+  ],
+  "activeSetId": "e5dbe90c-48f3-4971-8a6c-4a6ab50092e6",
+  "activeDocumentId": "161b892a-a5a5-4fba-9dae-ee3fd38c3a24"
+}

@@ -1,0 +1,372 @@
+{
+  "test": "选字模式双指接管与取消后重新缩放及平移",
+  "label": "final",
+  "startedAt": "2026-11-04T15:47:20.115Z",
+  "observations": {
+    "fromSelection": {
+      "frames": 32,
+      "order": "first-first",
+      "cancel": false,
+      "factor": 1.25,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.4500799641206,
+          "y": 438.4949263135532
+        },
+        "bounds": {
+          "x": -90.6175537109375,
+          "y": -226.85244750976562,
+          "width": 1288.4959716796875,
+          "height": 1667.4608154296875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.59
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.63083527357395,
+          "y": 438.4265252347308
+        },
+        "bounds": {
+          "x": -91,
+          "y": -227,
+          "width": 1288.5,
+          "height": 1667.46875
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.59
+      },
+      "during": {
+        "trusted": 66,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 64
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 68,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 64,
+          "pointerup": 2
+        },
+        "canvasDimensions": 2,
+        "loadingTransitions": 1,
+        "readyTransitions": 1
+      },
+      "previewDriftCssPixels": 0.000032782411618267,
+      "finalDriftCssPixels": 0.4069289952285504,
+      "bitmap": {
+        "width": 2577,
+        "height": 3334,
+        "dark": 276915,
+        "opaque": 8591718,
+        "total": 8591718
+      }
+    },
+    "canceled": {
+      "frames": 15,
+      "order": "second-first",
+      "cancel": true,
+      "factor": 0.9,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.63083527357395,
+          "y": 438.4265252347308
+        },
+        "bounds": {
+          "x": -91,
+          "y": -227,
+          "width": 1288.5,
+          "height": 1667.46875
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.59
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.63083761401367,
+          "y": 438.4265256581427
+        },
+        "bounds": {
+          "x": -30.652984619140625,
+          "y": -152.55902099609375,
+          "width": 1159.6500244140625,
+          "height": 1500.721923828125
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.33
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.63083527357395,
+          "y": 438.4265252347308
+        },
+        "bounds": {
+          "x": -91,
+          "y": -227,
+          "width": 1288.5,
+          "height": 1667.46875
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.59
+      },
+      "during": {
+        "trusted": 32,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 30
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 34,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 30,
+          "pointercancel": 2
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "previewDriftCssPixels": 0.0000045067777507904,
+      "finalDriftCssPixels": 0,
+      "bitmap": {
+        "width": 2577,
+        "height": 3334,
+        "dark": 276915,
+        "opaque": 8591718,
+        "total": 8591718
+      }
+    },
+    "afterCancel": {
+      "frames": 32,
+      "order": "second-first",
+      "cancel": false,
+      "factor": 1.15,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.63083527357395,
+          "y": 438.4265252347308
+        },
+        "bounds": {
+          "x": -91,
+          "y": -227,
+          "width": 1288.5,
+          "height": 1667.46875
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.59
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.6308290641036,
+          "y": 438.42651545702745
+        },
+        "bounds": {
+          "x": -178.69174194335938,
+          "y": -335.17205810546875,
+          "width": 1475.735107421875,
+          "height": 1909.772705078125
+        },
+        "scroll": {
+          "x": 358,
+          "y": 481
+        },
+        "zoom": 2.97
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.82764831178696,
+          "y": 438.2875830712318
+        },
+        "bounds": {
+          "x": -182,
+          "y": -339,
+          "width": 1481.78125,
+          "height": 1917.59375
+        },
+        "scroll": {
+          "x": 449,
+          "y": 593
+        },
+        "zoom": 2.98
+      },
+      "during": {
+        "trusted": 66,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 64
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 68,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 64,
+          "pointerup": 2
+        },
+        "canvasDimensions": 2,
+        "loadingTransitions": 1,
+        "readyTransitions": 1
+      },
+      "previewDriftCssPixels": 0.000027929948690393153,
+      "finalDriftCssPixels": 0.583307398929462,
+      "bitmap": {
+        "width": 2963,
+        "height": 3835,
+        "dark": 360807,
+        "opaque": 11363105,
+        "total": 11363105
+      }
+    },
+    "pan": {
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 288.89273045532195,
+          "y": 442.41775923602165
+        },
+        "bounds": {
+          "x": -187,
+          "y": -329,
+          "width": 1481.78125,
+          "height": 1917.59375
+        },
+        "scroll": {
+          "x": 454,
+          "y": 583
+        },
+        "zoom": 2.98
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 302.1092561739461,
+          "y": 423.8319664944673
+        },
+        "bounds": {
+          "x": -219,
+          "y": -374,
+          "width": 1481.78125,
+          "height": 1917.59375
+        },
+        "scroll": {
+          "x": 486,
+          "y": 628
+        },
+        "zoom": 2.98
+      }
+    }
+  },
+  "errors": [],
+  "runtime": {
+    "scripts": [
+      "http://127.0.0.1:5173/assets/index-BxRt8DSg.js"
+    ],
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "dpr": 2
+    },
+    "maxTouchPoints": 1
+  },
+  "fixtureSha256": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+  "finishedAt": "2026-11-04T15:47:30.757Z",
+  "status": "passed",
+  "failures": [],
+  "scope": "Installed Chrome with trusted CDP touch injection at a tablet viewport; not Huawei physical-device verification."
+}

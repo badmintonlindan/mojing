@@ -1,0 +1,39 @@
+{
+  "completed": true,
+  "version": "0.1.1",
+  "startedAt": "2026-11-04T15:48:48.191Z",
+  "serial": "emulator-5556",
+  "checks": [
+    "覆盖安装成功，原生双槽资料、来源、批注、脑图与复习数据逐字段保留",
+    "真实Android平板宽屏资料栏收起释放阅读宽度，按钮可重新展开",
+    "真实WebView可信多点触摸预览时未重建位图，松指一次清晰重绘、焦点守恒、后续单指平移正常",
+    "适宽/加减缩放可用，全部既有批注PDF坐标和卡片来源保持",
+    "再次force-stop及新进程恢复缩放、原文、关系与批注"
+  ],
+  "errors": [],
+  "previousVersion": "0.1.0",
+  "before": {
+    "revision": 69,
+    "cards": 82,
+    "nodes": 80,
+    "annotations": 10,
+    "reviewLogs": 10
+  },
+  "apkSha256": "430ff39b30d04565d8451bd9d6195eca69ea59b0050fab99047956141fef190a",
+  "installedSha256": "430ff39b30d04565d8451bd9d6195eca69ea59b0050fab99047956141fef190a",
+  "entry": "./assets/index-BxRt8DSg.js",
+  "zoom": {
+    "before": 1,
+    "after": 2,
+    "anchorDrift": {
+      "x": 0,
+      "y": 0.001969030188377019
+    },
+    "canvas": {
+      "width": 1988,
+      "height": 3039
+    },
+    "previewBitmapUnchanged": true
+  },
+  "finishedAt": "2026-11-04T15:49:49.072Z"
+}

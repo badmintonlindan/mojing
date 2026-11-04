@@ -1,0 +1,28 @@
+--------- beginning of crash
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: FATAL EXCEPTION: main
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: Process: cn.mojing.study, PID: 4037
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: java.lang.RuntimeException: android.os.TransactionTooLargeException: data parcel size 76680392 bytes
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: Bundle stats:
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:   capacitorLastPluginCallOptions [size=38338532]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:   capacitorLastPluginCallBundle [size=38338564]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:     _json [size=38338532]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:   androidx.lifecycle.BundlableSavedStateRegistry.key [size=1532]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:     android:support:activity-result [size=1148]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: PersistableBundle stats:
+11-04 11:57:35.810  4037  4037 E AndroidRuntime:   [null]
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.app.servertransaction.PendingTransactionActions$StopInfo.run(PendingTransactionActions.java:146)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:959)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: Caused by: android.os.TransactionTooLargeException: data parcel size 76680392 bytes
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.app.IActivityClientController$Stub$Proxy.activityStopped(IActivityClientController.java:1527)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.app.ActivityClient.activityStopped(ActivityClient.java:101)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	at android.app.servertransaction.PendingTransactionActions$StopInfo.run(PendingTransactionActions.java:135)
+11-04 11:57:35.810  4037  4037 E AndroidRuntime: 	... 8 more

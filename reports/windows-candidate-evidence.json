@@ -1,0 +1,35 @@
+{
+  "executedAt": "2026-11-04T03:38:53.794Z",
+  "completed": true,
+  "testTitle": "Windows候选版本专项：直接导入后的快捷键、重复图片、Ctrl滚轮及关闭恢复",
+  "executable": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+  "dataDirectory": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Windows候选专项-中文-1793763509254",
+  "rendererEntry": "./assets/index-93P9cfNy.js",
+  "nativeInfo": {
+    "packaged": true,
+    "version": "0.1.0",
+    "executable": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe"
+  },
+  "scanPixels": {
+    "width": 872,
+    "height": 571,
+    "darkPixels": 218785
+  },
+  "ctrlWheel": {
+    "factorBefore": 1,
+    "factorAfter": 1,
+    "percentBefore": "100%",
+    "percentAfter": "110%"
+  },
+  "imageAssetId": "fdad44fbb902a421be3af3816761e932edf76aea1943e13a8da6406959f09966",
+  "assetCount": 3,
+  "reopenedRevision": 10,
+  "errors": [],
+  "warnings": [
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+  ],
+  "primaryCrossPlatformPackageUnchanged": "reports/windows-export.mjstudy is not written by this focused test"
+}

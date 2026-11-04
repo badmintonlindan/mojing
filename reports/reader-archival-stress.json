@@ -1,0 +1,42 @@
+{
+  "executedAt": "2026-11-04T03:21:46.638Z",
+  "completed": true,
+  "page4Milliseconds": 5234,
+  "source": "Smithsonian letter00mace / archival-scan.pdf, SHA256 c5eb1115c7fec4927f798051d157e6c58146b883b817aa22f4b1a875a0c39c66",
+  "page4Dictionary": {
+    "widthPt": 2201.04,
+    "heightPt": 1440,
+    "imageCount": 2,
+    "imageWidth": 9171,
+    "imageHeight": 6000,
+    "filter": "JPXDecode",
+    "note": "PDF.js reports decoded image dimensions can differ from image dictionary."
+  },
+  "renderObservations": [
+    {
+      "document": "archival-scan",
+      "page": "1",
+      "readyMilliseconds": 3364,
+      "nonWhiteSamples": 108486,
+      "samples": 108671
+    },
+    {
+      "document": "archival-scan",
+      "page": "4",
+      "readyMilliseconds": 5130,
+      "nonWhiteSamples": 56595,
+      "samples": 56692
+    }
+  ],
+  "diagnostics": [
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "warning: Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "warning: Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "WASM 200 http://127.0.0.1:5173/pdf/wasm/openjpeg.wasm",
+    "WASM 200 http://127.0.0.1:5173/pdf/wasm/jbig2.wasm",
+    "warning: Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "warning: Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "warning: Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  ],
+  "errors": []
+}

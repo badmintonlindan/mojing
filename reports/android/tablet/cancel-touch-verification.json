@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-04T05:25:10.491Z",
+  "serial": "emulator-5556",
+  "box": {
+    "x": 745.984375,
+    "y": 570.328125,
+    "width": 54.0078125,
+    "height": 44
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 2
+  },
+  "native": {
+    "left": 0,
+    "top": 48,
+    "width": 2560,
+    "height": 1440
+  },
+  "point": {
+    "x": 1546,
+    "y": 1233
+  },
+  "closed": true,
+  "method": "ADB input tap at observed DOM button projected through native WebView bounds",
+  "interpretation": "Real user touch closes the modal; earlier CDP click after OS paste was harness focus mismatch."
+}

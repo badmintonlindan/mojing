@@ -1,0 +1,10 @@
+{
+  "builtSha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b",
+  "matches": true,
+  "observedAt": "2026-11-04T05:25:33.2171065Z",
+  "installedSha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b",
+  "builtApk": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\android\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+  "installedApk": "/data/app/~~fmsGiq6vs2Q0e1SrWto29w==/cn.mojing.study-LKRS8kLa4tpzbyBslgY4Ag==/base.apk",
+  "package": "cn.mojing.study",
+  "serial": "emulator-5556"
+}

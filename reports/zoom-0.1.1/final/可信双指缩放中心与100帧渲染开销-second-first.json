@@ -1,0 +1,227 @@
+{
+  "test": "可信双指缩放中心与100帧渲染开销-second-first",
+  "label": "final",
+  "startedAt": "2026-11-04T15:46:58.955Z",
+  "observations": {
+    "outward": {
+      "frames": 100,
+      "order": "second-first",
+      "cancel": false,
+      "factor": 1.4,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006916764186,
+          "y": 438.49491093252453
+        },
+        "bounds": {
+          "x": -162.98806762695312,
+          "y": -316.1639404296875,
+          "width": 1443.115478515625,
+          "height": 1867.5560302734375
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.9
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45323949761803,
+          "y": 438.5656597838091
+        },
+        "bounds": {
+          "x": -163,
+          "y": -316,
+          "width": 1443.125,
+          "height": 1867.5625
+        },
+        "scroll": {
+          "x": 430,
+          "y": 570
+        },
+        "zoom": 2.9
+      },
+      "during": {
+        "trusted": 202,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 200
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 204,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 200,
+          "pointerup": 2
+        },
+        "canvasDimensions": 2,
+        "loadingTransitions": 1,
+        "readyTransitions": 1
+      },
+      "previewDriftCssPixels": 0.00004009661754170008,
+      "finalDriftCssPixels": 0.1669585949214071,
+      "bitmap": {
+        "width": 2886,
+        "height": 3735,
+        "dark": 346109,
+        "opaque": 10779210,
+        "total": 10779210
+      }
+    },
+    "inward": {
+      "frames": 45,
+      "order": "second-first",
+      "cancel": false,
+      "factor": 0.7142857142857143,
+      "before": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45323949761803,
+          "y": 438.5656597838091
+        },
+        "bounds": {
+          "x": -163,
+          "y": -316,
+          "width": 1443.125,
+          "height": 1867.5625
+        },
+        "scroll": {
+          "x": 430,
+          "y": 570
+        },
+        "zoom": 2.9
+      },
+      "preview": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45324454643526,
+          "y": 438.56565104576794
+        },
+        "bounds": {
+          "x": 29.991729736328125,
+          "y": -77.882568359375,
+          "width": 1030.8031005859375,
+          "height": 1333.9725341796875
+        },
+        "scroll": {
+          "x": 430,
+          "y": 570
+        },
+        "zoom": 2.07
+      },
+      "after": {
+        "center": {
+          "x": 512.4703125000001,
+          "y": 517.41
+        },
+        "pdf": {
+          "x": 286.45006442224616,
+          "y": 438.49492726122713
+        },
+        "bounds": {
+          "x": 30,
+          "y": -78,
+          "width": 1030.796875,
+          "height": 1333.96875
+        },
+        "scroll": {
+          "x": 237,
+          "y": 332
+        },
+        "zoom": 2.07
+      },
+      "during": {
+        "trusted": 92,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 90
+        },
+        "canvasDimensions": 0,
+        "loadingTransitions": 0,
+        "readyTransitions": 0
+      },
+      "final": {
+        "trusted": 94,
+        "untrusted": 0,
+        "types": {
+          "pointerdown": 2,
+          "pointermove": 90,
+          "pointerup": 2
+        },
+        "canvasDimensions": 2,
+        "loadingTransitions": 1,
+        "readyTransitions": 1
+      },
+      "previewDriftCssPixels": 0.000016997765968490725,
+      "finalDriftCssPixels": 0.11925536450368283,
+      "bitmap": {
+        "width": 2061,
+        "height": 2667,
+        "dark": 175162,
+        "opaque": 5496687,
+        "total": 5496687
+      }
+    }
+  },
+  "errors": [],
+  "runtime": {
+    "scripts": [
+      "http://127.0.0.1:5173/assets/index-BxRt8DSg.js"
+    ],
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "dpr": 2
+    },
+    "maxTouchPoints": 1
+  },
+  "fixtureSha256": "0c2973eaa0c329f7f34187925b16d992df609511f6212a3fb80ff21d8630e215",
+  "finishedAt": "2026-11-04T15:47:09.235Z",
+  "status": "passed",
+  "failures": [],
+  "scope": "Installed Chrome with trusted CDP touch injection at a tablet viewport; not Huawei physical-device verification."
+}

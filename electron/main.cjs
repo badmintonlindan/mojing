@@ -1,0 +1,34 @@
+const { app, BrowserWindow, ipcMain, dialog, session } = require('electron');
+const path = require('node:path');
+const fs = require('node:fs/promises');
+const userData = process.env.MOJING_DATA_DIR;
+if (userData) app.setPath('userData', path.resolve(userData));
+app.setName('墨径');
+app.setAppUserModelId('cn.mojing.study');
+const singleInstance = app.requestSingleInstanceLock();
+if (!singleInstance) app.quit();
+let mainWindow;
+app.on('second-instance', () => { if (mainWindow) { if (mainWindow.isMinimized()) mainWindow.restore(); mainWindow.show(); mainWindow.focus(); } });
+const safePath = (name) => {
+  if (typeof name !== 'string' || !/^(snapshot-[ab]\.json|assets\/[a-f0-9]{64}\.[a-z0-9]+)$/.test(name)) throw new Error('不允许的数据路径');
+  return path.join(app.getPath('userData'), 'workspace', name);
+};
+if (singleInstance) app.whenReady().then(() => {
+  ipcMain.handle('file:read', async (_, name) => { try { return (await fs.readFile(safePath(name))).toString('base64'); } catch (e) { if (e.code === 'ENOENT') return null; throw e; } });
+  ipcMain.handle('file:write', async (_, name, data) => { const file = safePath(name); await fs.mkdir(path.dirname(file), { recursive: true }); const tmp = `${file}.tmp`; const handle = await fs.open(tmp, 'w'); try { await handle.writeFile(Buffer.from(data, 'base64')); await handle.sync(); } finally { await handle.close(); } await fs.rename(tmp, file); });
+  ipcMain.handle('file:remove', async (_, name) => { await fs.rm(safePath(name), { force: true }); });
+  ipcMain.handle('file:export', async (_, name, data) => { const markdown = name.endsWith('.zip'); const result = await dialog.showSaveDialog({ defaultPath: path.basename(name), filters: [{ name: markdown ? 'Markdown 笔记与附件 ZIP' : '墨径学习集', extensions: [markdown ? 'zip' : 'mjstudy'] }] }); if (result.canceled || !result.filePath) return false; const target = result.filePath; const tmp = `${target}.mojing-tmp`; const handle = await fs.open(tmp, 'w'); try { await handle.writeFile(Buffer.from(data, 'base64')); await handle.sync(); } finally { await handle.close(); } await fs.rename(tmp, target); return true; });
+  session.defaultSession.setPermissionRequestHandler((_, permission, callback) => callback(permission === 'clipboard-sanitized-write'));
+  const win = new BrowserWindow({ width: 1440, height: 930, minWidth: 390, minHeight: 600, backgroundColor: '#f4f3ef', autoHideMenuBar: true, icon: path.join(__dirname, '../dist/mojing.ico'), title: '墨径 · 阅读与知识工作台', webPreferences: { preload: path.join(__dirname, 'preload.cjs'), contextIsolation: true, nodeIntegration: false, sandbox: true } });
+  mainWindow = win;
+  let allowClose = false; let closing = false; let rendererReady = false;
+  ipcMain.on('app:renderer-ready', event => { if (event.sender === win.webContents) rendererReady = true; });
+  win.webContents.on('render-process-gone', () => { rendererReady = false; });
+  win.on('close', event => { if (allowClose || !rendererReady) return; event.preventDefault(); if (closing) return; closing = true; win.webContents.send('app:before-close'); });
+  ipcMain.on('app:close-ready', event => { if (event.sender === win.webContents) { allowClose = true; win.close(); } });
+  ipcMain.on('app:close-error', async (event, message) => { if (event.sender !== win.webContents) return; closing = false; const choice = await dialog.showMessageBox(win, { type: 'error', title: '学习数据尚未保存', message: String(message), detail: '保留窗口可以重试保存或导出备份。', buttons: ['保留窗口', '仍然退出'], defaultId: 0, cancelId: 0 }); if (choice.response === 1) { allowClose = true; win.close(); } });
+  win.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));
+  win.webContents.on('will-navigate', (e, url) => { if (!url.startsWith('file://') && !url.startsWith('http://127.0.0.1:')) e.preventDefault(); });
+  if (process.env.MOJING_DEV_URL) win.loadURL(process.env.MOJING_DEV_URL); else win.loadFile(path.join(__dirname, '../dist/index.html'));
+});
+app.on('window-all-closed', () => app.quit());

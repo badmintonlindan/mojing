@@ -1,0 +1,23 @@
+{
+  "executedAt": "2026-11-04T03:50:54.421Z",
+  "layout": {
+    "name": "phone-landscape",
+    "width": 915,
+    "height": 412,
+    "singleColumn": true
+  },
+  "browser": "156.0.8078.80",
+  "rendererEntry": "./assets/index-3hr5Ry_m.js",
+  "pointer": "coarse",
+  "touchInput": true,
+  "readingScrollTop": 194,
+  "observed": [
+    "横屏仍为单栏",
+    "滚动后原文句子可见",
+    "底栏触摸切换阅读/卡片",
+    "翻页和新建卡片按钮在视口内",
+    "无页面横向溢出"
+  ],
+  "completed": true,
+  "errors": []
+}

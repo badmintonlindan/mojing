@@ -1,0 +1,43 @@
+{
+  "completed": true,
+  "verifiedAt": "2026-11-04T05:59:04.099Z",
+  "application": "墨径",
+  "version": "0.1.0",
+  "apk": {
+    "bytes": 7574793,
+    "sha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b"
+  },
+  "entry": "index-CunP_kr-.js",
+  "identicalDistFilesAcrossWindowsAndApk": 325,
+  "exchanges": [
+    {
+      "platform": "phone",
+      "bytes": 14032185,
+      "sha256": "61c7a312c46b210648a01c24cfc06147a66cfa0330fe870c77ab550154b56d3e",
+      "metrics": {
+        "documents": 2,
+        "cards": 21,
+        "nodes": 20,
+        "annotations": 3,
+        "reviews": 1,
+        "reviewLogs": 3,
+        "assets": 4
+      }
+    },
+    {
+      "platform": "tablet",
+      "bytes": 14153828,
+      "sha256": "44163ef4273872751b5a9cc5f1f3a2b1fa4b4a0a71f16bd684ce94538eace089",
+      "metrics": {
+        "documents": 2,
+        "cards": 21,
+        "nodes": 20,
+        "annotations": 3,
+        "reviews": 1,
+        "reviewLogs": 3,
+        "assets": 4
+      }
+    }
+  ],
+  "scope": "Artifact identity and existing native-test evidence; this does not replace the UI tests or claim physical stylus testing."
+}

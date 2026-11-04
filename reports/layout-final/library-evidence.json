@@ -1,0 +1,20 @@
+{
+  "executedAt": "2026-11-04T03:51:04.271Z",
+  "completed": true,
+  "browser": "156.0.8078.80",
+  "rendererEntry": "./assets/index-3hr5Ry_m.js",
+  "studySet": "资料库回归 · 中文",
+  "imported": 2,
+  "remaining": 1,
+  "renamedTo": "已重命名 · 中文资料",
+  "cards": 0,
+  "observed": [
+    "UI创建独立中文学习集",
+    "真实PDF导入两份",
+    "PDF重命名",
+    "资料库搜索命中与未命中",
+    "删除无来源卡片/批注的PDF",
+    "重载后名称/关联/删除状态/原文可读均恢复"
+  ],
+  "errors": []
+}

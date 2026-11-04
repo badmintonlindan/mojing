@@ -1,0 +1,137 @@
+{
+  "platform": "Android APK",
+  "serial": "emulator-5556",
+  "label": "tablet",
+  "mode": "resume-restart",
+  "startedAt": "2026-11-04T05:37:45.418Z",
+  "completed": true,
+  "steps": [
+    {
+      "text": "已安装APK真实WebView启动并启用原生Filesystem插件",
+      "detail": {
+        "url": "https://localhost/",
+        "scripts": [
+          "https://localhost/assets/index-CunP_kr-.js"
+        ],
+        "platform": "android",
+        "native": true,
+        "filesystem": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+      },
+      "at": "2026-11-04T05:37:46.266Z"
+    },
+    {
+      "text": "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+      "at": "2026-11-04T05:37:46.496Z"
+    },
+    {
+      "text": "force-stop后重新打开APK，原生文件、学习关系、批注及复习记录恢复",
+      "at": "2026-11-04T05:38:12.661Z"
+    },
+    {
+      "text": "原生 ACTION_CREATE_DOCUMENT 系统保存器写出完整包，ADB取回逐项校验通过",
+      "detail": {
+        "path": "reports\\android\\tablet\\Android-tablet-export.mjstudy",
+        "sha256": "44163ef4273872751b5a9cc5f1f3a2b1fa4b4a0a71f16bd684ce94538eace089",
+        "bytes": 14153828,
+        "deviceFile": "/sdcard/Download/Android-tablet-export-1793770716963.mjstudy.zip",
+        "preparationMs": 16035,
+        "totalMs": 35310,
+        "cacheCleaned": true
+      },
+      "at": "2026-11-04T05:38:47.972Z"
+    }
+  ],
+  "errors": [],
+  "console": [
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+  ],
+  "layouts": [],
+  "artifacts": [
+    "reports\\android\\tablet\\force-stop-reopened.png",
+    "reports\\android\\tablet\\native-export-picker.png"
+  ],
+  "input": {
+    "path": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+    "sha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+    "bytes": 13907805
+  },
+  "device": {
+    "model": "Android SDK built for x86_64",
+    "sdk": "35",
+    "release": "15",
+    "fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+    "webview": "Current WebView Update Service state\r\n  Current WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  Minimum targetSdkVersion: 33\r\n  Minimum WebView version code: 636771907\r\n  Number of relros started: 1\r\n  Number of relros finished: 1\r\n  WebView package dirty: false\r\n  Any WebView package installed: true\r\n  Preferred WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  WebView packages:\r\n    Valid package com.android.webview (versionName: 124.0.6367.219, versionCode: 636771907, targetSdkVersion: 34) is  installed/enabled for all users"
+  },
+  "attachments": [
+    {
+      "attempt": 1,
+      "pid": 13630,
+      "at": "2026-11-04T05:37:46.252Z"
+    },
+    {
+      "attempt": 2,
+      "pid": 13947,
+      "at": "2026-11-04T05:37:54.863Z"
+    }
+  ],
+  "runtime": {
+    "url": "https://localhost/",
+    "scripts": [
+      "https://localhost/assets/index-CunP_kr-.js"
+    ],
+    "platform": "android",
+    "native": true,
+    "filesystem": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+  },
+  "network": {
+    "airplaneMode": "1"
+  },
+  "resumes": {
+    "report": "result.json",
+    "sha256": "91b81941bc267bf99b71a13c99672635ba9ed00d87d25c3e52ac3de580397b70",
+    "failedStage": "restart",
+    "completedEarlierSteps": [
+      "已安装APK真实WebView启动并启用原生Filesystem插件",
+      "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+      "Windows包经真实系统文件选择器导入：2PDF、20卡、三级20节点、来源区域、批注、复习均保留；原生落盘资产SHA全部正确",
+      "卡片及脑图均返回相应原文页与定位区域",
+      "实际拖选PDF文字并点击复制，经Android系统KEYCODE_PASTE粘贴到正文验证剪贴板内容",
+      "扫描PDF触摸区域截图保存成带来源图片卡；手指手写、仅笔模式忽略手指、模拟pen压力输入、橡皮及撤销真实落盘，缩放旋转后坐标保留",
+      "实际Android设备横竖屏布局切换，PDF与批注重新渲染，无整页横向溢出",
+      "实际Android完成显示答案、掌握反馈、下次安排及原生复习记录保存"
+    ]
+  },
+  "scanChecks": [
+    {
+      "phase": "force-stop-reopened",
+      "width": 1194,
+      "height": 1824,
+      "darkPixels": 935229,
+      "opaquePixels": 2177856,
+      "transparentPixels": 0
+    }
+  ],
+  "restart": {
+    "beforePid": "13630",
+    "afterPid": "13947",
+    "beforeRevision": 65,
+    "afterRevision": 65,
+    "cards": 21,
+    "nodes": 20,
+    "annotations": 3,
+    "reviewLogs": 3
+  },
+  "export": {
+    "path": "reports\\android\\tablet\\Android-tablet-export.mjstudy",
+    "sha256": "44163ef4273872751b5a9cc5f1f3a2b1fa4b4a0a71f16bd684ce94538eace089",
+    "bytes": 14153828,
+    "deviceFile": "/sdcard/Download/Android-tablet-export-1793770716963.mjstudy.zip",
+    "preparationMs": 16035,
+    "totalMs": 35310,
+    "cacheCleaned": true
+  },
+  "finishedAt": "2026-11-04T05:38:47.972Z"
+}

@@ -1,0 +1,38 @@
+{
+  "executedAt": "2026-11-04T03:50:59.100Z",
+  "layout": {
+    "name": "tablet-landscape",
+    "width": 1200,
+    "height": 800,
+    "singleColumn": false
+  },
+  "browser": "156.0.8078.80",
+  "rendererEntry": "./assets/index-3hr5Ry_m.js",
+  "pointer": "coarse",
+  "touchInput": true,
+  "split": {
+    "ratioBefore": 57,
+    "ratioAfter": 49.33288323045267,
+    "reader": {
+      "x": 246,
+      "y": 83,
+      "width": 461.75,
+      "height": 701
+    },
+    "knowledge": {
+      "x": 723.75,
+      "y": 83,
+      "width": 458.25,
+      "height": 701
+    },
+    "input": "CDP trusted touch pointer events on production splitter"
+  },
+  "observed": [
+    "阅读/知识双栏",
+    "实际触摸拖动分隔条改变比例",
+    "PDF按新宽度重新渲染完成",
+    "无页面横向溢出"
+  ],
+  "completed": true,
+  "errors": []
+}

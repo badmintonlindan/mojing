@@ -1,0 +1,488 @@
+{
+  "format": "mojing.third-party-notices",
+  "version": 1,
+  "lockfileVersion": 3,
+  "lockfileSha256": "7d2d54a61719c4c0929a3cb6f19f2566105858a0b3937b745ecb1588a10d55e7",
+  "inventory": [
+    {
+      "name": "@capacitor/android",
+      "version": "8.6.0",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/@capacitor/android"
+    },
+    {
+      "name": "@capacitor/core",
+      "version": "8.6.0",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/@capacitor/core"
+    },
+    {
+      "name": "@capacitor/filesystem",
+      "version": "8.1.5",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/@capacitor/filesystem"
+    },
+    {
+      "name": "@capacitor/synapse",
+      "version": "1.0.4",
+      "license": "ISC",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/@capacitor/synapse"
+    },
+    {
+      "name": "@napi-rs/canvas",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": true,
+      "location": "node_modules/@napi-rs/canvas"
+    },
+    {
+      "name": "@napi-rs/canvas-android-arm64",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-android-arm64"
+    },
+    {
+      "name": "@napi-rs/canvas-darwin-arm64",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-darwin-arm64"
+    },
+    {
+      "name": "@napi-rs/canvas-darwin-x64",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-darwin-x64"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-arm-gnueabihf",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-arm-gnueabihf"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-arm64-gnu",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-arm64-gnu"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-arm64-musl",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-arm64-musl"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-riscv64-gnu",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-riscv64-gnu"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-x64-gnu",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-x64-gnu"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-x64-musl",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-linux-x64-musl"
+    },
+    {
+      "name": "@napi-rs/canvas-win32-arm64-msvc",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": false,
+      "location": "node_modules/@napi-rs/canvas-win32-arm64-msvc"
+    },
+    {
+      "name": "@napi-rs/canvas-win32-x64-msvc",
+      "version": "1.1.0",
+      "license": "MIT",
+      "optional": true,
+      "installed": true,
+      "location": "node_modules/@napi-rs/canvas-win32-x64-msvc"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/@types/react"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/csstype"
+    },
+    {
+      "name": "electron",
+      "version": "45.2.2",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/electron"
+    },
+    {
+      "name": "fflate",
+      "version": "0.8.3",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/fflate"
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.67.0",
+      "license": "ISC",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/lucide-react"
+    },
+    {
+      "name": "pdfjs-dist",
+      "version": "6.5.438",
+      "license": "Apache-2.0",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/pdfjs-dist"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/react"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/react-dom"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/scheduler"
+    },
+    {
+      "name": "tslib",
+      "version": "2.9.1",
+      "license": "0BSD",
+      "optional": false,
+      "installed": true,
+      "location": "node_modules/tslib"
+    }
+  ],
+  "files": [
+    {
+      "package": "@capacitor/android",
+      "version": "8.6.0",
+      "license": "MIT",
+      "file": "packages/capacitor__android@8.6.0/LICENSE",
+      "source": "node_modules/@capacitor/android/LICENSE",
+      "bytes": 1075,
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd"
+    },
+    {
+      "package": "@capacitor/core",
+      "version": "8.6.0",
+      "license": "MIT",
+      "file": "packages/capacitor__core@8.6.0/LICENSE",
+      "source": "node_modules/@capacitor/core/LICENSE",
+      "bytes": 1075,
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd"
+    },
+    {
+      "package": "@capacitor/filesystem",
+      "version": "8.1.5",
+      "license": "MIT",
+      "file": "packages/capacitor__filesystem@8.1.5/LICENSE",
+      "source": "node_modules/@capacitor/filesystem/LICENSE",
+      "bytes": 1062,
+      "sha256": "de884404585ed20280150b0768082b6004d3548aaa0d6e596d6bfa0538ab331d"
+    },
+    {
+      "package": "@capacitor/synapse",
+      "version": "1.0.4",
+      "license": "ISC",
+      "file": "packages/capacitor__synapse@1.0.4/LICENSE.md",
+      "source": "node_modules/@capacitor/synapse/LICENSE.md",
+      "bytes": 1062,
+      "sha256": "de884404585ed20280150b0768082b6004d3548aaa0d6e596d6bfa0538ab331d"
+    },
+    {
+      "package": "@napi-rs/canvas",
+      "version": "1.1.0",
+      "license": "MIT",
+      "file": "packages/napi-rs__canvas@1.1.0/LICENSE",
+      "source": "node_modules/@napi-rs/canvas/LICENSE",
+      "bytes": 2705,
+      "sha256": "0b8e3b4f0042f33677406344854c1dcce3a2878eb3a3f6baee58c6f5752655ce"
+    },
+    {
+      "package": "@napi-rs/canvas-win32-x64-msvc",
+      "version": "1.1.0",
+      "license": "MIT",
+      "note": "来自同版本 canvas 源项目；Node-only 可选二进制不随墨径应用分发",
+      "file": "packages/napi-rs__canvas-win32-x64-msvc@1.1.0/LICENSE-from-canvas-project",
+      "source": "node_modules/@napi-rs/canvas/LICENSE",
+      "bytes": 2705,
+      "sha256": "0b8e3b4f0042f33677406344854c1dcce3a2878eb3a3f6baee58c6f5752655ce"
+    },
+    {
+      "package": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "file": "packages/types__react@19.3.0/LICENSE",
+      "source": "node_modules/@types/react/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "package": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "file": "packages/csstype@3.2.3/LICENSE",
+      "source": "node_modules/csstype/LICENSE",
+      "bytes": 1062,
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+    },
+    {
+      "package": "electron",
+      "version": "45.2.2",
+      "license": "MIT",
+      "file": "packages/electron@45.2.2/LICENSE",
+      "source": "node_modules/electron/LICENSE",
+      "bytes": 1096,
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "package": "fflate",
+      "version": "0.8.3",
+      "license": "MIT",
+      "file": "packages/fflate@0.8.3/LICENSE",
+      "source": "node_modules/fflate/LICENSE",
+      "bytes": 1069,
+      "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551"
+    },
+    {
+      "package": "lucide-react",
+      "version": "1.67.0",
+      "license": "ISC",
+      "file": "packages/lucide-react@1.67.0/LICENSE",
+      "source": "node_modules/lucide-react/LICENSE",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "package": "pdfjs-dist",
+      "version": "6.5.438",
+      "license": "Apache-2.0",
+      "file": "packages/pdfjs-dist@6.5.438/LICENSE",
+      "source": "node_modules/pdfjs-dist/LICENSE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "package": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "file": "packages/react@19.3.1/LICENSE",
+      "source": "node_modules/react/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "package": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "file": "packages/react-dom@19.3.1/LICENSE",
+      "source": "node_modules/react-dom/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "file": "packages/scheduler@0.28.0/LICENSE",
+      "source": "node_modules/scheduler/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "package": "tslib",
+      "version": "2.9.1",
+      "license": "0BSD",
+      "file": "packages/tslib@2.9.1/CopyrightNotice.txt",
+      "source": "node_modules/tslib/CopyrightNotice.txt",
+      "bytes": 822,
+      "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b"
+    },
+    {
+      "package": "tslib",
+      "version": "2.9.1",
+      "license": "0BSD",
+      "file": "packages/tslib@2.9.1/LICENSE.txt",
+      "source": "node_modules/tslib/LICENSE.txt",
+      "bytes": 655,
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+    },
+    {
+      "package": "pdfjs-dist/cmaps",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/cmaps/LICENSE",
+      "source": "node_modules/pdfjs-dist/cmaps/LICENSE",
+      "bytes": 2080,
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "package": "pdfjs-dist/standard_fonts",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/standard_fonts/LICENSE_FOXIT",
+      "source": "node_modules/pdfjs-dist/standard_fonts/LICENSE_FOXIT",
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "package": "pdfjs-dist/standard_fonts",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/standard_fonts/LICENSE_LIBERATION",
+      "source": "node_modules/pdfjs-dist/standard_fonts/LICENSE_LIBERATION",
+      "bytes": 22154,
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_JBIG2",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_JBIG2",
+      "bytes": 12862,
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_OPENJPEG",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_OPENJPEG",
+      "bytes": 2112,
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_PDFJS_JBIG2",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_PDFJS_JBIG2",
+      "bytes": 555,
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_PDFJS_OPENJPEG",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_PDFJS_OPENJPEG",
+      "bytes": 1285,
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_PDFJS_QCMS",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_PDFJS_QCMS",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_PDFJS_QUICKJS",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_PDFJS_QUICKJS",
+      "bytes": 1075,
+      "sha256": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_QCMS",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_QCMS",
+      "bytes": 1121,
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    {
+      "package": "pdfjs-dist/wasm",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/wasm/LICENSE_QUICKJS",
+      "source": "node_modules/pdfjs-dist/wasm/LICENSE_QUICKJS",
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    {
+      "package": "pdfjs-dist/iccs",
+      "version": "6.5.438",
+      "license": "以各文件全文为准",
+      "file": "pdf-assets/iccs/LICENSE",
+      "source": "node_modules/pdfjs-dist/iccs/LICENSE",
+      "bytes": 6553,
+      "sha256": "286e4fd7b447330b2c88e23890e3cd0a9d38cb398d4a59cb247f578ccbda3213"
+    }
+  ],
+  "electronRuntime": {
+    "installed": true,
+    "preserveFiles": [
+      "LICENSE",
+      "LICENSES.chromium.html"
+    ]
+  },
+  "warnings": []
+}

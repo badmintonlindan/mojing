@@ -1,0 +1,304 @@
+{
+  "platform": "Android APK",
+  "serial": "emulator-5556",
+  "label": "tablet",
+  "mode": "full",
+  "startedAt": "2026-11-04T05:28:07.489Z",
+  "completed": false,
+  "steps": [
+    {
+      "text": "已安装APK真实WebView启动并启用原生Filesystem插件",
+      "detail": {
+        "url": "https://localhost/",
+        "scripts": [
+          "https://localhost/assets/index-CunP_kr-.js"
+        ],
+        "platform": "android",
+        "native": true,
+        "filesystem": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+      },
+      "at": "2026-11-04T05:28:14.306Z"
+    },
+    {
+      "text": "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+      "at": "2026-11-04T05:28:15.091Z"
+    },
+    {
+      "text": "Windows包经真实系统文件选择器导入：2PDF、20卡、三级20节点、来源区域、批注、复习均保留；原生落盘资产SHA全部正确",
+      "at": "2026-11-04T05:28:53.330Z"
+    },
+    {
+      "text": "卡片及脑图均返回相应原文页与定位区域",
+      "at": "2026-11-04T05:28:59.859Z"
+    },
+    {
+      "text": "实际拖选PDF文字并点击复制，经Android系统KEYCODE_PASTE粘贴到正文验证剪贴板内容",
+      "at": "2026-11-04T05:29:19.310Z"
+    },
+    {
+      "text": "扫描PDF触摸区域截图保存成带来源图片卡；手指手写、仅笔模式忽略手指、模拟pen压力输入、橡皮及撤销真实落盘，缩放旋转后坐标保留",
+      "at": "2026-11-04T05:29:47.881Z"
+    },
+    {
+      "text": "实际Android设备横竖屏布局切换，PDF与批注重新渲染，无整页横向溢出",
+      "detail": [
+        {
+          "name": "portrait",
+          "width": 800,
+          "height": 1200,
+          "dpr": 2,
+          "scrollWidth": 800,
+          "mobile": false,
+          "reader": {
+            "x": 12,
+            "y": 68,
+            "width": 442.3125,
+            "height": 1120,
+            "top": 68,
+            "right": 454.3125,
+            "bottom": 1188,
+            "left": 12
+          },
+          "knowledge": {
+            "x": 466.3125,
+            "y": 68,
+            "width": 321.6875,
+            "height": 1120,
+            "top": 68,
+            "right": 788,
+            "bottom": 1188,
+            "left": 466.3125
+          }
+        },
+        {
+          "name": "landscape",
+          "width": 1280,
+          "height": 720,
+          "dpr": 2,
+          "scrollWidth": 1280,
+          "mobile": false,
+          "reader": {
+            "x": 246,
+            "y": 83,
+            "width": 579.1171875,
+            "height": 621,
+            "top": 83,
+            "right": 825.1171875,
+            "bottom": 704,
+            "left": 246
+          },
+          "knowledge": {
+            "x": 841.1171875,
+            "y": 83,
+            "width": 420.8828125,
+            "height": 621,
+            "top": 83,
+            "right": 1262,
+            "bottom": 704,
+            "left": 841.1171875
+          }
+        },
+        {
+          "name": "portrait-restored",
+          "width": 800,
+          "height": 1200,
+          "dpr": 2,
+          "scrollWidth": 800,
+          "mobile": false,
+          "reader": {
+            "x": 12,
+            "y": 68,
+            "width": 442.3125,
+            "height": 1120,
+            "top": 68,
+            "right": 454.3125,
+            "bottom": 1188,
+            "left": 12
+          },
+          "knowledge": {
+            "x": 466.3125,
+            "y": 68,
+            "width": 321.6875,
+            "height": 1120,
+            "top": 68,
+            "right": 788,
+            "bottom": 1188,
+            "left": 466.3125
+          }
+        }
+      ],
+      "at": "2026-11-04T05:29:55.472Z"
+    },
+    {
+      "text": "实际Android完成显示答案、掌握反馈、下次安排及原生复习记录保存",
+      "at": "2026-11-04T05:29:57.614Z"
+    }
+  ],
+  "errors": [],
+  "console": [
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  ],
+  "layouts": [
+    {
+      "name": "portrait",
+      "width": 800,
+      "height": 1200,
+      "dpr": 2,
+      "scrollWidth": 800,
+      "mobile": false,
+      "reader": {
+        "x": 12,
+        "y": 68,
+        "width": 442.3125,
+        "height": 1120,
+        "top": 68,
+        "right": 454.3125,
+        "bottom": 1188,
+        "left": 12
+      },
+      "knowledge": {
+        "x": 466.3125,
+        "y": 68,
+        "width": 321.6875,
+        "height": 1120,
+        "top": 68,
+        "right": 788,
+        "bottom": 1188,
+        "left": 466.3125
+      }
+    },
+    {
+      "name": "landscape",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollWidth": 1280,
+      "mobile": false,
+      "reader": {
+        "x": 246,
+        "y": 83,
+        "width": 579.1171875,
+        "height": 621,
+        "top": 83,
+        "right": 825.1171875,
+        "bottom": 704,
+        "left": 246
+      },
+      "knowledge": {
+        "x": 841.1171875,
+        "y": 83,
+        "width": 420.8828125,
+        "height": 621,
+        "top": 83,
+        "right": 1262,
+        "bottom": 704,
+        "left": 841.1171875
+      }
+    },
+    {
+      "name": "portrait-restored",
+      "width": 800,
+      "height": 1200,
+      "dpr": 2,
+      "scrollWidth": 800,
+      "mobile": false,
+      "reader": {
+        "x": 12,
+        "y": 68,
+        "width": 442.3125,
+        "height": 1120,
+        "top": 68,
+        "right": 454.3125,
+        "bottom": 1188,
+        "left": 12
+      },
+      "knowledge": {
+        "x": 466.3125,
+        "y": 68,
+        "width": 321.6875,
+        "height": 1120,
+        "top": 68,
+        "right": 788,
+        "bottom": 1188,
+        "left": 466.3125
+      }
+    }
+  ],
+  "artifacts": [
+    "reports\\android\\tablet\\native-import-picker.png",
+    "reports\\android\\tablet\\card-source.png",
+    "reports\\android\\tablet\\mind-source.png",
+    "reports\\android\\tablet\\finger-ink-after-undo.png",
+    "reports\\android\\tablet\\portrait.png",
+    "reports\\android\\tablet\\landscape.png",
+    "reports\\android\\tablet\\portrait-restored.png",
+    "reports\\android\\tablet\\review.png",
+    "reports\\android\\tablet\\failed-restart.png"
+  ],
+  "input": {
+    "path": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+    "sha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+    "bytes": 13907805
+  },
+  "device": {
+    "model": "Android SDK built for x86_64",
+    "sdk": "35",
+    "release": "15",
+    "fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+    "webview": "Current WebView Update Service state\r\n  Current WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  Minimum targetSdkVersion: 33\r\n  Minimum WebView version code: 636771907\r\n  Number of relros started: 1\r\n  Number of relros finished: 1\r\n  WebView package dirty: false\r\n  Any WebView package installed: true\r\n  Preferred WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  WebView packages:\r\n    Valid package com.android.webview (versionName: 124.0.6367.219, versionCode: 636771907, targetSdkVersion: 34) is  installed/enabled for all users"
+  },
+  "runtime": {
+    "url": "https://localhost/",
+    "scripts": [
+      "https://localhost/assets/index-CunP_kr-.js"
+    ],
+    "platform": "android",
+    "native": true,
+    "filesystem": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+  },
+  "network": {
+    "airplaneMode": "1"
+  },
+  "scan": {
+    "width": 995,
+    "height": 651,
+    "darkPixels": 303515,
+    "embeddedTextSpans": 106
+  },
+  "scanChecks": [
+    {
+      "phase": "zoom120-rotation90",
+      "width": 1194,
+      "height": 1824,
+      "darkPixels": 935229
+    },
+    {
+      "phase": "portrait",
+      "width": 865,
+      "height": 1322,
+      "darkPixels": 491414
+    },
+    {
+      "phase": "landscape",
+      "width": 1194,
+      "height": 1824,
+      "darkPixels": 935229
+    },
+    {
+      "phase": "portrait-restored",
+      "width": 865,
+      "height": 1322,
+      "darkPixels": 491414
+    }
+  ],
+  "failure": {
+    "stage": "restart",
+    "message": "expect(locator).toBeVisible() failed\n\nLocator: locator('.app-shell')\nExpected: visible\nError: Target page, context or browser has been closed\n\nCall log:\n  - Expect \"toBeVisible\" locator('.app-shell') with timeout 45000ms\n  - waiting for locator('.app-shell')\n  - Target page, context or browser has been closed\n",
+    "stack": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('.app-shell')\nExpected: visible\nError: Target page, context or browser has been closed\n\nCall log:\n  - Expect \"toBeVisible\" locator('.app-shell') with timeout 45000ms\n  - waiting for locator('.app-shell')\n  - Target page, context or browser has been closed\n\n    at captureRawStack (C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toBeVisible (C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at attach (C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\scripts\\test-android.mjs:118:43)\n    at async file:///C:/Users/86157/Documents/ChatGPT/android%20mn/scripts/test-android.mjs:488:59"
+  },
+  "finishedAt": "2026-11-04T05:30:00.353Z"
+}

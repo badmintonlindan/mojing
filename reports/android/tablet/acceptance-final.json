@@ -1,0 +1,274 @@
+{
+  "format": "mojing.android-tablet.acceptance",
+  "version": 1,
+  "completed": true,
+  "platform": "Android APK",
+  "serial": "emulator-5556",
+  "deviceClass": "Android tablet AVD; API35 x86_64, WebView124; no physical stylus hardware",
+  "verifiedAt": "2026-11-04T05:51:45.106Z",
+  "apk": {
+    "builtSha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b",
+    "matches": true,
+    "observedAt": "2026-11-04T05:25:33.2171065Z",
+    "installedSha256": "6202d9f89ad41cfa97ba910f87be3ee3e693ae69f9d59eaba94afe2a3ba3820b",
+    "builtApk": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\android\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+    "installedApk": "/data/app/~~fmsGiq6vs2Q0e1SrWto29w==/cn.mojing.study-LKRS8kLa4tpzbyBslgY4Ag==/base.apk",
+    "package": "cn.mojing.study",
+    "serial": "emulator-5556"
+  },
+  "execution": "Acceptance combined from preserved successful stages and a successful resumed cold-start/export session. The original full-run driver failure remains completed:false and is not rewritten.",
+  "sessions": [
+    {
+      "path": "reports/android/tablet/full-before-restart-result.json",
+      "sha256": "91b81941bc267bf99b71a13c99672635ba9ed00d87d25c3e52ac3de580397b70",
+      "sessionId": 44180,
+      "mode": "full",
+      "passedThrough": "review",
+      "stoppedAt": "restart",
+      "driverIssue": "A stale CDP WebView page closed during process replacement; original failure is retained."
+    },
+    {
+      "path": "reports/android/tablet/resume-restart-result.json",
+      "sha256": "73bce25e4c55e52ab0a5d85e4735b9874b6882e90f000a313449d8e44e0eaf75",
+      "sessionId": 21746,
+      "mode": "resume-restart",
+      "completed": true,
+      "linkedPreviousSha256": "91b81941bc267bf99b71a13c99672635ba9ed00d87d25c3e52ac3de580397b70"
+    }
+  ],
+  "runtime": {
+    "url": "https://localhost/",
+    "scripts": [
+      "https://localhost/assets/index-CunP_kr-.js"
+    ],
+    "platform": "android",
+    "native": true,
+    "filesystem": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Safari/537.36"
+  },
+  "input": {
+    "path": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+    "sha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+    "bytes": 13907805
+  },
+  "passedSteps": [
+    "已安装APK真实WebView启动并启用原生Filesystem插件",
+    "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+    "Windows包经真实系统文件选择器导入：2PDF、20卡、三级20节点、来源区域、批注、复习均保留；原生落盘资产SHA全部正确",
+    "卡片及脑图均返回相应原文页与定位区域",
+    "实际拖选PDF文字并点击复制，经Android系统KEYCODE_PASTE粘贴到正文验证剪贴板内容",
+    "扫描PDF触摸区域截图保存成带来源图片卡；手指手写、仅笔模式忽略手指、模拟pen压力输入、橡皮及撤销真实落盘，缩放旋转后坐标保留",
+    "实际Android设备横竖屏布局切换，PDF与批注重新渲染，无整页横向溢出",
+    "实际Android完成显示答案、掌握反馈、下次安排及原生复习记录保存",
+    "force-stop后重新打开APK，原生文件、学习关系、批注及复习记录恢复",
+    "原生 ACTION_CREATE_DOCUMENT 系统保存器写出完整包，ADB取回逐项校验通过",
+    "Physical tablet splitter swipe changed both panes from 57% to 40% and back, with opaque nonblank PDF pixels.",
+    "Frozen Android export reimported through packaged Windows UI, sources and relationships checked, then actual Windows process closed and reopened."
+  ],
+  "stateAfterRestart": {
+    "beforePid": "13630",
+    "afterPid": "13947",
+    "beforeRevision": 65,
+    "afterRevision": 65,
+    "cards": 21,
+    "nodes": 20,
+    "annotations": 3,
+    "reviewLogs": 3
+  },
+  "scanChecks": [
+    {
+      "phase": "force-stop-reopened",
+      "width": 1194,
+      "height": 1824,
+      "darkPixels": 935229,
+      "opaquePixels": 2177856,
+      "transparentPixels": 0
+    }
+  ],
+  "layouts": [
+    {
+      "name": "portrait",
+      "width": 800,
+      "height": 1200,
+      "dpr": 2,
+      "scrollWidth": 800,
+      "mobile": false,
+      "reader": {
+        "x": 12,
+        "y": 68,
+        "width": 442.3125,
+        "height": 1120,
+        "top": 68,
+        "right": 454.3125,
+        "bottom": 1188,
+        "left": 12
+      },
+      "knowledge": {
+        "x": 466.3125,
+        "y": 68,
+        "width": 321.6875,
+        "height": 1120,
+        "top": 68,
+        "right": 788,
+        "bottom": 1188,
+        "left": 466.3125
+      }
+    },
+    {
+      "name": "landscape",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollWidth": 1280,
+      "mobile": false,
+      "reader": {
+        "x": 246,
+        "y": 83,
+        "width": 579.1171875,
+        "height": 621,
+        "top": 83,
+        "right": 825.1171875,
+        "bottom": 704,
+        "left": 246
+      },
+      "knowledge": {
+        "x": 841.1171875,
+        "y": 83,
+        "width": 420.8828125,
+        "height": 621,
+        "top": 83,
+        "right": 1262,
+        "bottom": 704,
+        "left": 841.1171875
+      }
+    },
+    {
+      "name": "portrait-restored",
+      "width": 800,
+      "height": 1200,
+      "dpr": 2,
+      "scrollWidth": 800,
+      "mobile": false,
+      "reader": {
+        "x": 12,
+        "y": 68,
+        "width": 442.3125,
+        "height": 1120,
+        "top": 68,
+        "right": 454.3125,
+        "bottom": 1188,
+        "left": 12
+      },
+      "knowledge": {
+        "x": 466.3125,
+        "y": 68,
+        "width": 321.6875,
+        "height": 1120,
+        "top": 68,
+        "right": 788,
+        "bottom": 1188,
+        "left": 466.3125
+      }
+    }
+  ],
+  "nativeSplit": {
+    "path": "reports/android/tablet/physical-splitter-result.json",
+    "sha256": "23b4285abb7dd4614689169403dfc1ae68740d92e96f90b7766de60c433a394e",
+    "completed": true,
+    "measurements": [
+      {
+        "requested": 40,
+        "from": [
+          "1666",
+          "835"
+        ],
+        "to": [
+          "1298",
+          "835"
+        ],
+        "ratio": 40.15895132782795,
+        "reader": 408.0078125,
+        "knowledge": 591.9921875,
+        "canvas": {
+          "width": 783,
+          "height": 1196,
+          "dark": 401913,
+          "opaque": 936468,
+          "pixels": 936468
+        }
+      },
+      {
+        "requested": 57,
+        "from": [
+          "1324",
+          "835"
+        ],
+        "to": [
+          "1655",
+          "835"
+        ],
+        "ratio": 57.11252190767585,
+        "reader": 580.2578125,
+        "knowledge": 419.7421875,
+        "canvas": {
+          "width": 1196,
+          "height": 1828,
+          "dark": 939807,
+          "opaque": 2186288,
+          "pixels": 2186288
+        }
+      }
+    ]
+  },
+  "export": {
+    "path": "reports\\android\\tablet\\Android-tablet-export.mjstudy",
+    "sha256": "44163ef4273872751b5a9cc5f1f3a2b1fa4b4a0a71f16bd684ce94538eace089",
+    "bytes": 14153828,
+    "deviceFile": "/sdcard/Download/Android-tablet-export-1793770716963.mjstudy.zip",
+    "preparationMs": 16035,
+    "totalMs": 35310,
+    "cacheCleaned": true,
+    "frozen": true
+  },
+  "windowsReimport": {
+    "path": "reports/roundtrip/windows-from-android-tablet.json",
+    "sha256": "44461b83346d896b4b37d1f1aa162c56c13d402a751263c174a69c1b6025321f",
+    "completed": true,
+    "inputSha256": "44163ef4273872751b5a9cc5f1f3a2b1fa4b4a0a71f16bd684ce94538eace089",
+    "metrics": {
+      "documents": 2,
+      "cards": 21,
+      "nodes": 20,
+      "annotations": 3,
+      "reviews": 1,
+      "reviewLogs": 3,
+      "assets": 4
+    }
+  },
+  "screenshots": {
+    "capture": "Actual Android OS screencap; no CDP screenshots used as final display evidence.",
+    "visuallyInspected": [
+      "reports/android/tablet/portrait.png",
+      "reports/android/tablet/landscape.png",
+      "reports/android/tablet/force-stop-reopened.png",
+      "reports/android/tablet/native-export-picker.png",
+      "reports/android/tablet/native-export-completed.png",
+      "reports/android/tablet/physical-splitter-40.png"
+    ],
+    "findings": "Original manuscript pixels, blue ink, card image and Chinese controls are visibly present in both tablet orientations and after cold start. Native Save UI and returned app are present."
+  },
+  "warnings": [
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+  ],
+  "limitations": [
+    "Pen pressure uses injected pen pointer input. Physical stylus latency and palm rejection require real hardware.",
+    "Publisher archival scan page4 contains low-quality embedded text; screenshot capture does not use OCR.",
+    "CDP capture may omit this WebView canvas; OS images and raw opaque pixel checks are the accepted display evidence."
+  ],
+  "script": {
+    "path": "scripts/test-android.mjs",
+    "sha256": "eca67b791ff62cc5ad8dac74967590705f9ce70be408f138a1dd945422e10ed2"
+  },
+  "failureReportsPreserved": true
+}

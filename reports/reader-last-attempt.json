@@ -1,0 +1,245 @@
+{
+  "title": "真实PDF阅读、选字高亮、截图、手写、来源坐标及重启持久化",
+  "status": "passed",
+  "executedAt": "2026-11-04T03:24:10.643Z",
+  "durationMilliseconds": 82970,
+  "errors": [],
+  "renderObservations": [
+    {
+      "document": "archival-scan",
+      "page": "1",
+      "readyMilliseconds": 3974,
+      "nonWhiteSamples": 108486,
+      "samples": 108671
+    },
+    {
+      "document": "archival-scan",
+      "page": "4",
+      "readyMilliseconds": 5181,
+      "nonWhiteSamples": 56595,
+      "samples": 56692
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 570,
+      "nonWhiteSamples": 16476,
+      "samples": 112205
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "3",
+      "readyMilliseconds": 229,
+      "nonWhiteSamples": 16436,
+      "samples": 112205
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 352,
+      "nonWhiteSamples": 16476,
+      "samples": 112205
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 449,
+      "nonWhiteSamples": 9994,
+      "samples": 66999
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 469,
+      "nonWhiteSamples": 14061,
+      "samples": 96369
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 503,
+      "nonWhiteSamples": 10121,
+      "samples": 68805
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 317,
+      "nonWhiteSamples": 10121,
+      "samples": 68805
+    },
+    {
+      "document": "archival-scan",
+      "page": "4",
+      "readyMilliseconds": 7135,
+      "nonWhiteSamples": 40463,
+      "samples": 40587
+    },
+    {
+      "document": "archival-scan",
+      "page": "5",
+      "readyMilliseconds": 2591,
+      "nonWhiteSamples": 77564,
+      "samples": 77688
+    },
+    {
+      "document": "archival-scan",
+      "page": "5",
+      "readyMilliseconds": 3566,
+      "nonWhiteSamples": 77564,
+      "samples": 77688
+    },
+    {
+      "document": "archival-scan",
+      "page": "4",
+      "readyMilliseconds": 5687,
+      "nonWhiteSamples": 40463,
+      "samples": 40587
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 855,
+      "nonWhiteSamples": 10121,
+      "samples": 68805
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 762,
+      "nonWhiteSamples": 10121,
+      "samples": 68805
+    },
+    {
+      "document": "含文字层的学习资料",
+      "page": "1",
+      "readyMilliseconds": 245,
+      "nonWhiteSamples": 14061,
+      "samples": 96369
+    },
+    {
+      "document": "archival-scan",
+      "page": "4",
+      "readyMilliseconds": 5966,
+      "nonWhiteSamples": 56595,
+      "samples": 56692
+    }
+  ],
+  "diagnostics": [
+    {
+      "kind": "error",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "at": "2026-11-04T03:22:59.133Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:02.492Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:02.497Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/openjpeg.wasm",
+      "at": "2026-11-04T03:23:02.524Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/jbig2.wasm",
+      "at": "2026-11-04T03:23:04.417Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:06.097Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:07.595Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "at": "2026-11-04T03:23:11.257Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "at": "2026-11-04T03:23:14.692Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:19.186Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:19.198Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/openjpeg.wasm",
+      "at": "2026-11-04T03:23:19.235Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/jbig2.wasm",
+      "at": "2026-11-04T03:23:22.450Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:34.748Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:35.327Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "at": "2026-11-04T03:23:37.321Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:38.181Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:38.188Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/openjpeg.wasm",
+      "at": "2026-11-04T03:23:38.207Z"
+    },
+    {
+      "kind": "wasm-response",
+      "message": "200 http://127.0.0.1:5173/pdf/wasm/jbig2.wasm",
+      "at": "2026-11-04T03:23:39.637Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:41.264Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+      "at": "2026-11-04T03:23:43.208Z"
+    },
+    {
+      "kind": "warning",
+      "message": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "at": "2026-11-04T03:23:46.927Z"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "platform": "Android APK",
+  "serial": "emulator-5554",
+  "label": "phone",
+  "mode": "clipboard",
+  "startedAt": "2026-11-04T04:54:50.687Z",
+  "completed": false,
+  "steps": [
+    {
+      "text": "已安装APK真实WebView启动并启用原生Filesystem插件",
+      "detail": {
+        "url": "https://localhost/",
+        "scripts": [
+          "https://localhost/assets/index-CunP_kr-.js"
+        ],
+        "platform": "android",
+        "native": true,
+        "filesystem": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Mobile Safari/537.36"
+      },
+      "at": "2026-11-04T04:54:57.171Z"
+    },
+    {
+      "text": "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+      "at": "2026-11-04T04:54:57.594Z"
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "layouts": [],
+  "artifacts": [
+    "reports\\android\\phone\\failed-clipboard.png"
+  ],
+  "input": {
+    "path": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+    "sha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+    "bytes": 13907805
+  },
+  "device": {
+    "model": "Android SDK built for x86_64",
+    "sdk": "35",
+    "release": "15",
+    "fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+    "webview": "Current WebView Update Service state\r\n  Current WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  Minimum targetSdkVersion: 33\r\n  Minimum WebView version code: 636771907\r\n  Number of relros started: 1\r\n  Number of relros finished: 1\r\n  WebView package dirty: false\r\n  Any WebView package installed: true\r\n  Preferred WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  WebView packages:\r\n    Valid package com.android.webview (versionName: 124.0.6367.219, versionCode: 636771907, targetSdkVersion: 34) is  installed/enabled for all users"
+  },
+  "runtime": {
+    "url": "https://localhost/",
+    "scripts": [
+      "https://localhost/assets/index-CunP_kr-.js"
+    ],
+    "platform": "android",
+    "native": true,
+    "filesystem": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Mobile Safari/537.36"
+  },
+  "network": {
+    "airplaneMode": "1"
+  },
+  "failure": {
+    "stage": "clipboard",
+    "message": "locator.click: Error: strict mode violation: getByRole('button', { name: '新建卡片', exact: true }) resolved to 2 elements:\n    1) <button aria-label=\"新建卡片\" title=\"新建卡片 (Ctrl+K)\">…</button> aka getByRole('button', { name: '新建卡片', description: '新建卡片 (Ctrl+K)' })\n    2) <button class=\"knowledge-primary\">…</button> aka getByText('新建卡片')\n\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '新建卡片', exact: true })\u001b[22m\n",
+    "stack": "locator.click: Error: strict mode violation: getByRole('button', { name: '新建卡片', exact: true }) resolved to 2 elements:\n    1) <button aria-label=\"新建卡片\" title=\"新建卡片 (Ctrl+K)\">…</button> aka getByRole('button', { name: '新建卡片', description: '新建卡片 (Ctrl+K)' })\n    2) <button class=\"knowledge-primary\">…</button> aka getByText('新建卡片')\n\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '新建卡片', exact: true })\u001b[22m\n\n    at clipboardCopy (C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\scripts\\test-android.mjs:164:82)\n    at async file:///C:/Users/86157/Documents/ChatGPT/android%20mn/scripts/test-android.mjs:332:26"
+  },
+  "finishedAt": "2026-11-04T04:55:17.019Z"
+}

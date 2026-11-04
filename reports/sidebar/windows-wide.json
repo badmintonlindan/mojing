@@ -1,0 +1,31 @@
+{
+  "executedAt": "2026-11-04T15:45:45.602Z",
+  "completed": true,
+  "layout": {
+    "name": "windows-wide",
+    "width": 1440,
+    "height": 1000,
+    "touch": false,
+    "wide": true
+  },
+  "browser": "156.0.8078.80",
+  "rendererEntry": "./assets/index-BxRt8DSg.js",
+  "before": {
+    "main": 1212,
+    "reader": 670.3125,
+    "canvas": 588.3125
+  },
+  "after": {
+    "main": 1440,
+    "reader": 800.265625,
+    "canvas": 718.265625
+  },
+  "observed": [
+    "宽屏默认展开",
+    "点击文档保持宽屏展开",
+    "收起释放侧栏占位并使原文重新渲染变宽",
+    "标题栏入口可触摸或键盘重新打开"
+  ],
+  "errors": [],
+  "scope": "Chrome desktop/touch layout regression with real PDF import; not physical Huawei tablet verification"
+}

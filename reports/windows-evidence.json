@@ -1,0 +1,169 @@
+{
+  "executedAt": "2026-11-04T03:29:47.959Z",
+  "completed": true,
+  "testTitle": "打包Windows程序：原生文件、来源定位、复习、IPC导出、窗口调整与关闭重开",
+  "executable": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+  "rendererUrl": "file:///C:/Users/86157/Documents/ChatGPT/android%20mn/release/%E5%A2%A8%E5%BE%84-Windows-x64/resources/app/dist/index.html",
+  "rendererEntry": {
+    "url": "file:///C:/Users/86157/Documents/ChatGPT/android%20mn/release/%E5%A2%A8%E5%BE%84-Windows-x64/resources/app/dist/assets/index-B8SQtjJ9.js",
+    "sha256": "63bc3455b8dbaaa221c4c80c5607860b15b1de8904ef50ec64ffd58509de6d13"
+  },
+  "nativeInfo": {
+    "packaged": true,
+    "version": "0.1.0",
+    "executable": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\release\\墨径-Windows-x64\\墨径.exe",
+    "userData": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Windows原生验收-中文目录-1793762944102",
+    "versions": {
+      "node": "24.22.2",
+      "acorn": "8.18.0",
+      "ada": "4.0.0",
+      "amaro": "1.1.11",
+      "ares": "1.34.9",
+      "brotli": "1.2.0",
+      "cldr": "48.0",
+      "icu": "78.2",
+      "llhttp": "9.4.3",
+      "merve": "1.2.2",
+      "modules": "150",
+      "napi": "10",
+      "nbytes": "0.1.4",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.70.0",
+      "nghttp3": "",
+      "ngtcp2": "",
+      "openssl": "0.0.0",
+      "simdjson": "4.6.11",
+      "simdutf": "7.7.0",
+      "sqlite": "3.53.4",
+      "tz": "2026e",
+      "undici": "7.30.1",
+      "unicode": "17.0",
+      "uv": "1.52.1",
+      "uvwasi": "0.0.23",
+      "v8": "15.6.75.27-electron.0",
+      "zlib": "1.3.2.1-motley",
+      "zstd": "1.6.0",
+      "electron": "45.2.2",
+      "chrome": "156.0.8078.80"
+    }
+  },
+  "dataDirectory": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\Windows原生验收-中文目录-1793762944102",
+  "scanRender": {
+    "elapsedMilliseconds": 5941,
+    "width": 872,
+    "height": 571,
+    "darkPixels": 218785,
+    "textSpans": 106
+  },
+  "storage": "Electron production preload/IPC + actual native filesystem, not IndexedDB",
+  "pickerSubstitution": "Only dialog.showSaveDialog returns a deterministic path; production UI export/IPC/fs code remains active.",
+  "inputPackage": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\acceptance.mjstudy",
+  "exportedPackage": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+  "primaryExportSha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+  "metrics": {
+    "documents": 2,
+    "cards": 20,
+    "nodes": 20,
+    "maximumDepth": 3,
+    "annotations": 2,
+    "reviews": 1,
+    "reviewLogs": 2
+  },
+  "sourceLocations": [
+    {
+      "title": "01 观察与证据",
+      "source": {
+        "documentId": "71281035-fa46-49b4-a64b-920284a8c401",
+        "page": 1,
+        "rects": [
+          [
+            47.965898225857856,
+            619.3000106236057,
+            242.1708458382025,
+            634.9039626049082
+          ]
+        ],
+        "quote": "Learning begins with observation."
+      }
+    },
+    {
+      "title": "02 扫描图像摘录",
+      "source": {
+        "documentId": "6b0dd75c-12f7-47d2-82b6-f51e49eb78d7",
+        "page": 4,
+        "rects": [
+          [
+            177.1038818167531,
+            288.82476819110474,
+            1593.934936350778,
+            1130.068206820682
+          ]
+        ]
+      }
+    }
+  ],
+  "windows": [
+    {
+      "requested": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actual": {
+        "width": 1426,
+        "height": 963
+      }
+    },
+    {
+      "requested": {
+        "width": 430,
+        "height": 800
+      },
+      "actual": {
+        "width": 416,
+        "height": 763
+      }
+    },
+    {
+      "requested": {
+        "width": 1000,
+        "height": 900
+      },
+      "actual": {
+        "width": 986,
+        "height": 863
+      }
+    },
+    {
+      "requested": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actual": {
+        "width": 1426,
+        "height": 963
+      }
+    }
+  ],
+  "passed": [
+    "从release目录启动已打包exe，file://资源、Windows preload和隔离中文数据目录均实际启用",
+    "UI导入20卡/2PDF/三级脑图/批注/复习，原生快照与全部资产真实落盘且哈希正确，逻辑关系与来源区域保持",
+    "文字/真实扫描截图卡片与20节点脑图均返回正确来源文档/页码/区域，定位框与已保存高亮对齐，扫描页墨迹保留",
+    "真实鼠标文字选择及复制按钮写入Windows系统剪贴板",
+    "Ctrl+O真实PDF选择导入并去重，Ctrl+K打开编辑器，Ctrl+S提交原生快照",
+    "Windows完成一次问答复习，掌握反馈和下一次时间写入原生文件",
+    "实际桌面窗口缩放到手机/平板/桌面空间，复习可操作且无页面横向溢出",
+    "编辑后立即关闭实际进程并重新启动，20卡/20节点/批注/阅读状态/复习与新编辑均从原生文件恢复",
+    "备份按钮经生产renderer→preload→IPC→fs flush/rename导出真实Windows学习集，供Android目标端导入",
+    "Markdown ZIP包含卡片/图片/来源PDF且所有相对资源存在；Ctrl+E实际导出学习集"
+  ],
+  "errors": [],
+  "consoleWarnings": [
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary.",
+    "Warning: PDFImage - using the Width/Height of the image data, rather than the image dictionary."
+  ],
+  "limitations": [
+    "Window-size checks run on Windows, not Android hardware.",
+    "OS save-location picker is stubbed; actual picker interaction is a separate manual check.",
+    "Physical stylus pressure/latency/palm rejection is not tested."
+  ]
+}

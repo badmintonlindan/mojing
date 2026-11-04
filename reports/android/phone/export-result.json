@@ -1,0 +1,82 @@
+{
+  "platform": "Android APK",
+  "serial": "emulator-5554",
+  "label": "phone",
+  "mode": "export",
+  "startedAt": "2026-11-04T04:58:16.021Z",
+  "completed": true,
+  "steps": [
+    {
+      "text": "已安装APK真实WebView启动并启用原生Filesystem插件",
+      "detail": {
+        "url": "https://localhost/",
+        "scripts": [
+          "https://localhost/assets/index-CunP_kr-.js"
+        ],
+        "platform": "android",
+        "native": true,
+        "filesystem": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Mobile Safari/537.36"
+      },
+      "at": "2026-11-04T04:58:17.194Z"
+    },
+    {
+      "text": "设备飞行模式开启，后续PDF渲染、摘录、复习及交换全程离线",
+      "at": "2026-11-04T04:58:17.591Z"
+    },
+    {
+      "text": "原生 ACTION_CREATE_DOCUMENT 系统保存器写出完整包，ADB取回逐项校验通过",
+      "detail": {
+        "path": "reports\\android\\phone\\Android-phone-export.mjstudy",
+        "sha256": "bba539c062cfc7ae21207dfb3d96a51704f29c41ec23921127a6cf34b2fe3cce",
+        "bytes": 14032183,
+        "deviceFile": "/sdcard/Download/Android-phone-export-1793768327269.mjstudy.zip",
+        "preparationMs": 19123,
+        "totalMs": 46101,
+        "cacheCleaned": true
+      },
+      "at": "2026-11-04T04:59:03.692Z"
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "layouts": [],
+  "artifacts": [
+    "reports\\android\\phone\\native-export-picker.png"
+  ],
+  "input": {
+    "path": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\reports\\windows-export.mjstudy",
+    "sha256": "d0c529b30769692e5f494a83bce08d495971322963a6dc6159f6addc0766cec7",
+    "bytes": 13907805
+  },
+  "device": {
+    "model": "Android SDK built for x86_64",
+    "sdk": "35",
+    "release": "15",
+    "fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+    "webview": "Current WebView Update Service state\r\n  Current WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  Minimum targetSdkVersion: 33\r\n  Minimum WebView version code: 636771907\r\n  Number of relros started: 1\r\n  Number of relros finished: 1\r\n  WebView package dirty: false\r\n  Any WebView package installed: true\r\n  Preferred WebView package (name, version): (com.android.webview, 124.0.6367.219)\r\n  WebView packages:\r\n    Valid package com.android.webview (versionName: 124.0.6367.219, versionCode: 636771907, targetSdkVersion: 34) is  installed/enabled for all users"
+  },
+  "runtime": {
+    "url": "https://localhost/",
+    "scripts": [
+      "https://localhost/assets/index-CunP_kr-.js"
+    ],
+    "platform": "android",
+    "native": true,
+    "filesystem": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Android SDK built for x86_64 Build/AE3A.240806.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Mobile Safari/537.36"
+  },
+  "network": {
+    "airplaneMode": "1"
+  },
+  "export": {
+    "path": "reports\\android\\phone\\Android-phone-export.mjstudy",
+    "sha256": "bba539c062cfc7ae21207dfb3d96a51704f29c41ec23921127a6cf34b2fe3cce",
+    "bytes": 14032183,
+    "deviceFile": "/sdcard/Download/Android-phone-export-1793768327269.mjstudy.zip",
+    "preparationMs": 19123,
+    "totalMs": 46101,
+    "cacheCleaned": true
+  },
+  "finishedAt": "2026-11-04T04:59:03.692Z"
+}

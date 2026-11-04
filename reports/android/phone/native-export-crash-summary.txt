@@ -1,0 +1,6 @@
+2026-11-04 12:00:40 Asia/Shanghai: Android native backup export opened ACTION_CREATE_DOCUMENT and crashed MainActivity on stop.
+java.lang.RuntimeException: android.os.TransactionTooLargeException: data parcel size 76020168 bytes
+Bundle stats: capacitorLastPluginCallOptions=38008528 bytes; capacitorLastPluginCallBundle._json=38008528 bytes.
+Stack: PendingTransactionActions.StopInfo.run -> IActivityClientController.activityStopped -> BinderProxy.transact.
+The archive Base64 was retained in saved PluginCall options. Payloads are deliberately omitted from this record.
+Source PDFs and validated snapshot-a/snapshot-b remained in app files; no source assets were deleted.

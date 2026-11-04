@@ -1,0 +1,15 @@
+{
+  "executedAt": "2026-11-04T03:31:42.218Z",
+  "before": 1,
+  "after": 1,
+  "percentBefore": "120%",
+  "percentAfter": "132%",
+  "warnings": [
+    "Unable to preventDefault inside passive event listener invocation."
+  ],
+  "phoneSidebarRight": 0,
+  "phoneViewport": {
+    "width": 416,
+    "height": 763
+  }
+}
