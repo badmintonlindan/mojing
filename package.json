@@ -11,6 +11,7 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "test:e2e": "playwright test tests/knowledge.spec.ts tests/reader.spec.ts tests/layout-library.spec.ts",
+    "test:tablet": "playwright test tests/sidebar.spec.ts tests/reader-zoom.spec.ts",
     "desktop": "electron .",
     "package:windows": "node scripts/licenses.mjs --require-electron && node scripts/licenses-android.mjs --verify-existing && node scripts/package-windows.mjs",
     "android:sync": "npm run build && cap sync android",

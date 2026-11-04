@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "version": "0.1.1",
+  "verifiedAt": "2026-11-04T15:55:34.468Z",
+  "artifact": "release/墨径-0.1.1-Android.apk",
+  "bytes": 7761921,
+  "sha256": "430ff39b30d04565d8451bd9d6195eca69ea59b0050fab99047956141fef190a",
+  "entry": "index-BxRt8DSg.js",
+  "identicalDistFiles": 325,
+  "nativeEvidence": "reports/0.1.1/android-tablet/result.json",
+  "sidebarTests": 4,
+  "zoomTests": 4,
+  "limits": "Android tablet AVD and installed Chrome; no claim of Huawei hardware verification."
+}
