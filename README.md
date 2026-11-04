@@ -4,6 +4,17 @@
 
 项目采用 React / TypeScript / PDF.js，共用业务与数据代码；Android 由 Capacitor 包装，Windows 由 Electron 包装。无需账户，原文和学习数据保存在当前设备。
 
+## 克隆到本地
+
+仓库已公开，读取与克隆无需 GitHub 登录或 SSH 密钥。建议使用以下命令，同时启用 Windows 深层许可证文件所需的长路径支持；该配置只保存在新克隆的仓库中：
+
+```powershell
+git clone -c core.longpaths=true https://github.com/badmintonlindan/mojing.git
+cd mojing
+```
+
+已实际以无凭据 HTTPS 下载并完成源码检出，验证记录见 [匿名克隆记录](reports/public-clone-verification.json)。开发与构建步骤见下文和 [构建说明](docs/BUILD.md)。
+
 ## 当前交付状态
 
 仓库：[badmintonlindan/mojing](https://github.com/badmintonlindan/mojing)。安装包从 [GitHub Releases](https://github.com/badmintonlindan/mojing/releases) 下载；SDK、依赖目录和生成的安装包不放入 Git 源码历史。

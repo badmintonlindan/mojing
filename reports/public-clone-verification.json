@@ -1,0 +1,97 @@
+{
+  "completed": true,
+  "startedAt": "2026-11-04T16:57:32.667Z",
+  "finishedAt": "2026-11-04T17:01:07.79Z",
+  "durationMs": 98607,
+  "remote": "https://github.com/badmintonlindan/mojing.git",
+  "cloneDirectory": "C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\public-clone-20261105-005329",
+  "cloneExitCode": 128,
+  "cloneOptions": [
+    "--depth",
+    "1",
+    "--single-branch",
+    "--no-tags"
+  ],
+  "authentication": {
+    "environment": "Explicit minimal Windows process environment; no GH_TOKEN/GITHUB_TOKEN, SSH variables, inherited Git config injection, or askpass helpers.",
+    "gitConfiguration": "System Git configuration disabled; global/system config files empty; parent repository discovery blocked by GIT_CEILING_DIRECTORIES; credential.helper/core.askPass/http.extraHeader reset.",
+    "terminalPrompt": false,
+    "outgoingHttpHeadersObserved": 31,
+    "authorizationHeadersObserved": 0
+  },
+  "proxy": "http://127.0.0.1:7890",
+  "initialCloneCheckoutError": "Cloning into 'C:\\Users\\86157\\Documents\\ChatGPT\\android mn\\.test-data\\public-clone-20261105-005329'...\nfatal: cannot create directory at 'public/licenses/android/artifacts/androidx.coordinatorlayout__coordinatorlayout@1.3.0/coordinatorlayout-1.3.0.aar.contents/META-INF/androidx/coordinatorlayout/coordinatorlayout': Filename too long\nwarning: Clone succeeded, but checkout failed.\nYou can inspect what was checked out with 'git status'\nand retry with 'git restore --source=HEAD :/'\n\n",
+  "recovery": {
+    "action": "Complete the already downloaded shallow clone checkout with Windows long-path support; no second clone or fetch.",
+    "command": "git -c core.longpaths=true restore --source=HEAD --staged --worktree :/",
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "exists": true,
+      "bytes": 5663
+    },
+    {
+      "path": "package.json",
+      "exists": true,
+      "bytes": 1728
+    },
+    {
+      "path": "src/App.tsx",
+      "exists": true,
+      "bytes": 29259
+    },
+    {
+      "path": "src/components/Reader.tsx",
+      "exists": true,
+      "bytes": 30381
+    },
+    {
+      "path": "src/core/repository.ts",
+      "exists": true,
+      "bytes": 13598
+    },
+    {
+      "path": "android/build.gradle",
+      "exists": true,
+      "bytes": 637
+    },
+    {
+      "path": "android/app/build.gradle",
+      "exists": true,
+      "bytes": 2130
+    },
+    {
+      "path": "android/gradlew",
+      "exists": true,
+      "bytes": 8733
+    },
+    {
+      "path": "android/gradlew.bat",
+      "exists": true,
+      "bytes": 2937
+    }
+  ],
+  "head": "540050453d34741ded70e3368e17cf80acbadd36",
+  "latestCommit": "540050453d34741ded70e3368e17cf80acbadd36\ndocs: link repository downloads and derive desktop package version",
+  "isShallow": true,
+  "cleanWorkingTree": true,
+  "origin": "https://github.com/badmintonlindan/mojing.git",
+  "gitCloneCount": 1,
+  "recommendedWindowsClone": "git -c core.longpaths=true clone https://github.com/badmintonlindan/mojing.git",
+  "cloneDurationMs": 98607,
+  "totalElapsedMs": 215000,
+  "anonymousLsRemote": {
+    "remote": "https://github.com/badmintonlindan/mojing.git",
+    "startedAt": "2026-11-04T16:54:41.477Z",
+    "durationMs": 1930,
+    "exitCode": 0,
+    "stdout": "ref: refs/heads/main\tHEAD\n540050453d34741ded70e3368e17cf80acbadd36\tHEAD",
+    "stderr": "",
+    "authentication": "Environment allowlist excludes all GitHub tokens, SSH and askpass configuration; credential helpers and HTTP auth headers are reset; no user/system/repository Git configuration is loaded.",
+    "proxy": "http://127.0.0.1:7890"
+  }
+}
