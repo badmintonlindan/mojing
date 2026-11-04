@@ -6,6 +6,8 @@
 
 ## 当前交付状态
 
+仓库：[badmintonlindan/mojing](https://github.com/badmintonlindan/mojing)。安装包从 [GitHub Releases](https://github.com/badmintonlindan/mojing/releases) 下载；SDK、依赖目录和生成的安装包不放入 Git 源码历史。
+
 Android 最新交付为 **0.1.1 平板阅读修复版**：宽屏可收起/展开资料栏，双指缩放采用预览与松指后清晰重绘，并修复缩放焦点和分栏键盘操作。最终入口 `index-BxRt8DSg.js` 已通过 4 项侧栏回归（14.5 秒）、4 项缩放回归（43.5 秒），以及已安装 APK 的 Android 平板模拟器覆盖升级、资料保留、双指操作与重启验证。29 项核心单测通过。版本摘要、证据与验证边界见 [0.1.1 发布记录](docs/RELEASE-0.1.1.md)；华为实体平板尚待复测。
 
 Windows 交付仍为 **0.1.0**。0.1.0 已完成 MVP 的实际运行验收：两份 PDF（文字层与真实档案扫描）、20 张卡片和三级脑图、批注与来源返回、复习、重启恢复，以及 Windows ↔ Android 的完整包迁移。Windows 使用打包 EXE；Android 手机和平板使用已安装 APK 的 Android 15 模拟器，实体触控笔体验仍待真机复测。完整环境、分段测试说明和证据保留在 [0.1.0 测试记录](docs/TEST-REPORT.md)，本次未重跑全部 MVP 验收。

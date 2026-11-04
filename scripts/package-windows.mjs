@@ -1,6 +1,7 @@
-import { cp, mkdir, rename, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { resolve, sep } from 'node:path';
 const out = resolve('release/墨径-Windows-x64');
+const { version } = JSON.parse(await readFile('package.json', 'utf8'));
 await mkdir(out, { recursive: true });
 await cp('node_modules/electron/dist', out, { recursive: true });
 const app = `${out}/resources/app`;
@@ -11,10 +12,10 @@ if (!generatedDist.startsWith(releaseRoot + sep) || generatedDist !== resolve(ou
 await rm(generatedDist, { recursive: true, force: true });
 await cp('dist', `${app}/dist`, { recursive: true });
 await cp('electron', `${app}/electron`, { recursive: true });
-await writeFile(`${app}/package.json`, JSON.stringify({ name: 'mojing', version: '0.1.0', main: 'electron/main.cjs' }));
+await writeFile(`${app}/package.json`, JSON.stringify({ name: 'mojing', version, main: 'electron/main.cjs' }));
 await rename(`${out}/electron.exe`, `${out}/墨径.exe`).catch(e => { if (e.code !== 'ENOENT') throw e; });
 await cp('docs', `${out}/docs`, { recursive: true });
 await cp('README.md', `${out}/README.md`);
 await cp('THIRD-PARTY-NOTICES.md', `${out}/THIRD-PARTY-NOTICES.md`);
-await writeFile(`${out}/开始使用.txt`, '墨径 0.1.0 · Windows x64 便携版\r\n\r\n双击本目录“墨径.exe”开始使用，请保留整个文件夹。\r\n无需账户，核心功能离线可用。首次打开可导入本地 PDF，或导入完整 .mjstudy 学习集。\r\n使用指南：docs/USER-GUIDE.md\r\n测试记录：docs/TEST-REPORT.md\r\n已知问题：docs/KNOWN-ISSUES.md\r\n跨设备迁移前，请从应用侧栏导出完整学习集。\r\n', 'utf8');
+await writeFile(`${out}/开始使用.txt`, `墨径 ${version} · Windows x64 便携版\r\n\r\n双击本目录“墨径.exe”开始使用，请保留整个文件夹。\r\n无需账户，核心功能离线可用。首次打开可导入本地 PDF，或导入完整 .mjstudy 学习集。\r\n使用指南：docs/USER-GUIDE.md\r\n测试记录：docs/TEST-REPORT.md\r\n已知问题：docs/KNOWN-ISSUES.md\r\n跨设备迁移前，请从应用侧栏导出完整学习集。\r\n`, 'utf8');
 console.log(`Windows 便携程序：${out}/墨径.exe（请保留整个文件夹）`);
